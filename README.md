@@ -12,7 +12,7 @@ Nick and Adam had a falling out because adam was a pathological liar and adam to
 
 After that Nick restarted the bot on a new bot account and it was going good, with adonis and trey (glory) doing work on it, until a feature idea that someone had was abused which was for preventing alts, and it ended up leaking someones IP by accident, after that nick decided to decomission the project and call it wraps.
 
-Note that trey did none of the code updated in this source code, and adonis did very few if any, the changes they made are not going to be included as tbh, it doesn't even matter, this bot is horrible and the ownership aside from nick was even worse.
+Note that trey did none of the code updated in this source code, and adonis did very few if any, nick obviously didn't do any as he doesn't do python. The changes they made are not going to be included as tbh, it doesn't even matter, this bot is horrible and the ownership aside from nick was even worse.
 
 Adam's current running version is a very miniscule alteration of this, just worse. For instance just last week his alteration posted dick pics in a bunch of channels due to his "new autopfp bucket".
 
