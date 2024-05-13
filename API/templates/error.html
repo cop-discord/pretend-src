@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head lang="en">
+    <meta charset="utf-8">
+    <meta viewport="width=device-width, initial-scale=1.0">
+    <title>Error</title>
+    <link rel="icon" href="{{url_for('static', path='x.png')}}">
+</head> 
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+    body {
+        background-color: rgb(109, 7, 7);
+    }
+    
+    .container {
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 90vh;
+    }
+
+    .container h2 {
+        font-size: 50px; 
+        font-weight: 500;
+        font-style: normal;
+        font-family: "Open Sans", sans-serif;
+        color: rgb(9, 8, 8);
+    }
+
+</style>
+<body>
+    <div class="container">
+        <h2>{{message}}</h2>
+    </div>
+</body>

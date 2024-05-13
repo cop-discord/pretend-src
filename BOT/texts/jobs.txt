@@ -1,0 +1,43 @@
+teacher
+doctor
+police officer
+chef
+firefighter
+bus driver
+scientist
+post man
+vet
+pilot
+nurse
+baker
+builder
+judge
+farmer
+waiter
+waitress
+butcher
+cashier
+football player
+car mechanic
+flight attendant
+musician
+taxi driver
+barber
+hairdresser
+pharmacist
+business man
+maid
+tour guide
+soldier
+sailor
+fighter pilot
+miner
+plumber
+photographer
+reporter
+make up artist
+director
+computer programmer
+surgeon
+professional golf player
+detective

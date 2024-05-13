@@ -1,0 +1,4785 @@
+{
+    "Utility": [
+        {
+            "name": "names",
+            "description": "",
+            "usage": null,
+            "help": "Check a member's past usernames",
+            "brief": null,
+            "aliases": [
+                "pastusernanes",
+                "usernames",
+                "oldnames",
+                "pastnames"
+            ],
+            "category": "Utility"
+        },
+        {
+            "name": "snapchatstory",
+            "description": "",
+            "usage": null,
+            "help": "Get someone's snapchat stories",
+            "brief": null,
+            "aliases": [
+                "snapstory"
+            ],
+            "category": "Utility"
+        },
+        {
+            "name": "translate",
+            "description": "",
+            "usage": null,
+            "help": "Translate a message to a specific language",
+            "brief": null,
+            "aliases": [
+                "tr"
+            ],
+            "category": "Utility"
+        },
+        {
+            "name": "uwuify",
+            "description": "",
+            "usage": null,
+            "help": "Convert a message to the uwu format",
+            "brief": null,
+            "aliases": [
+                "uwu"
+            ],
+            "category": "Utility"
+        },
+        {
+            "name": "banner",
+            "description": "",
+            "usage": null,
+            "help": "Get someone's banner",
+            "brief": null,
+            "aliases": [],
+            "category": "Utility"
+        },
+        {
+            "name": "urban",
+            "description": "",
+            "usage": null,
+            "help": "find a definition of a word",
+            "brief": null,
+            "aliases": [
+                "define"
+            ],
+            "category": "Utility"
+        },
+        {
+            "name": "bans",
+            "description": "",
+            "usage": null,
+            "help": "Returns a list of banned users",
+            "brief": null,
+            "aliases": [],
+            "category": "Utility"
+        },
+        {
+            "name": "bots",
+            "description": "",
+            "usage": null,
+            "help": "Returns a list of all bots in this server",
+            "brief": null,
+            "aliases": [],
+            "category": "Utility"
+        },
+        {
+            "name": "servericon",
+            "description": "",
+            "usage": null,
+            "help": "Get a server's icon",
+            "brief": null,
+            "aliases": [
+                "sicon"
+            ],
+            "category": "Utility"
+        },
+        {
+            "name": "serverbanner",
+            "description": "",
+            "usage": null,
+            "help": "Get a server's banner",
+            "brief": null,
+            "aliases": [
+                "sbanner"
+            ],
+            "category": "Utility"
+        },
+        {
+            "name": "donators",
+            "description": "",
+            "usage": null,
+            "help": "Returns a list of all donators",
+            "brief": null,
+            "aliases": [],
+            "category": "Utility"
+        },
+        {
+            "name": "boosters",
+            "description": "",
+            "usage": null,
+            "help": "Returns a list of members that boosted the server",
+            "brief": null,
+            "aliases": [],
+            "category": "Utility"
+        },
+        {
+            "name": "reminder stop",
+            "description": "",
+            "usage": null,
+            "help": "Stop the bot from reminding you",
+            "brief": null,
+            "aliases": [
+                "cancel"
+            ],
+            "category": "Utility"
+        },
+        {
+            "name": "reminder add",
+            "description": "",
+            "usage": null,
+            "help": "Make the bot remind you about a task",
+            "brief": null,
+            "aliases": [],
+            "category": "Utility"
+        },
+        {
+            "name": "snapchat",
+            "description": "",
+            "usage": null,
+            "help": "Get someone's snapchat profile",
+            "brief": null,
+            "aliases": [
+                "snap"
+            ],
+            "category": "Utility"
+        },
+        {
+            "name": "stickymessage add",
+            "description": "",
+            "usage": null,
+            "help": "add a sticky message to the server",
+            "brief": "manage guild",
+            "aliases": [],
+            "category": "Utility"
+        },
+        {
+            "name": "stickymessage remove",
+            "description": "",
+            "usage": null,
+            "help": "remove a sticky message from the server",
+            "brief": "manage guild",
+            "aliases": [],
+            "category": "Utility"
+        },
+        {
+            "name": "inrole",
+            "description": "",
+            "usage": null,
+            "help": "Get the list of members that have a specific ",
+            "brief": null,
+            "aliases": [],
+            "category": "Utility"
+        },
+        {
+            "name": "serversplash",
+            "description": "",
+            "usage": null,
+            "help": "Get a server's splash",
+            "brief": null,
+            "aliases": [
+                "splash"
+            ],
+            "category": "Utility"
+        },
+        {
+            "name": "shazam",
+            "description": "",
+            "usage": null,
+            "help": "Get the name of a music in a file using shazam",
+            "brief": null,
+            "aliases": [],
+            "category": "Utility"
+        },
+        {
+            "name": "membercount",
+            "description": "",
+            "usage": null,
+            "help": "Returns the number of members in your server or the server given",
+            "brief": null,
+            "aliases": [
+                "mc"
+            ],
+            "category": "Utility"
+        },
+        {
+            "name": "channelinfo",
+            "description": "",
+            "usage": null,
+            "help": "view information about a channel",
+            "brief": null,
+            "aliases": [
+                "ci"
+            ],
+            "category": "Utility"
+        },
+        {
+            "name": "dominant",
+            "description": "",
+            "usage": null,
+            "help": "Get the color of an image",
+            "brief": null,
+            "aliases": [
+                "hex"
+            ],
+            "category": "Utility"
+        },
+        {
+            "name": "color",
+            "description": "",
+            "usage": null,
+            "help": "view info about a color",
+            "brief": null,
+            "aliases": [
+                "colour"
+            ],
+            "category": "Utility"
+        },
+        {
+            "name": "roleinfo",
+            "description": "",
+            "usage": null,
+            "help": "Information about a role",
+            "brief": null,
+            "aliases": [
+                "ri"
+            ],
+            "category": "Utility"
+        },
+        {
+            "name": "roblox",
+            "description": "",
+            "usage": null,
+            "help": "Get someone's roblox profile",
+            "brief": null,
+            "aliases": [],
+            "category": "Utility"
+        },
+        {
+            "name": "cashapp",
+            "description": "",
+            "usage": null,
+            "help": "get someone's cashapp url and qr",
+            "brief": null,
+            "aliases": [
+                "ca"
+            ],
+            "category": "Utility"
+        },
+        {
+            "name": "timezone set",
+            "description": "",
+            "usage": null,
+            "help": "Set your timezone",
+            "brief": null,
+            "aliases": [],
+            "category": "Utility"
+        },
+        {
+            "name": "timezone list",
+            "description": "",
+            "usage": null,
+            "help": "Get the timezones of everyone in this server",
+            "brief": null,
+            "aliases": [],
+            "category": "Utility"
+        },
+        {
+            "name": "timezone unset",
+            "description": "",
+            "usage": null,
+            "help": "Unset your timezone",
+            "brief": null,
+            "aliases": [],
+            "category": "Utility"
+        },
+        {
+            "name": "transparent",
+            "description": "",
+            "usage": null,
+            "help": "make an image transparent",
+            "brief": null,
+            "aliases": [
+                "tp"
+            ],
+            "category": "Utility"
+        },
+        {
+            "name": "fortniteshop",
+            "description": "",
+            "usage": null,
+            "help": "Get the fortnite item shop for today",
+            "brief": null,
+            "aliases": [
+                "fnshop"
+            ],
+            "category": "Utility"
+        },
+        {
+            "name": "remind",
+            "description": "",
+            "usage": null,
+            "help": "Make the bot remind you about a task",
+            "brief": null,
+            "aliases": [
+                "remindme"
+            ],
+            "category": "Utility"
+        },
+        {
+            "name": "tag creator",
+            "description": "",
+            "usage": null,
+            "help": "view the creator of a tag",
+            "brief": null,
+            "aliases": [
+                "author"
+            ],
+            "category": "Utility"
+        },
+        {
+            "name": "tag list",
+            "description": "",
+            "usage": null,
+            "help": "returns a list of all tags",
+            "brief": "manage server",
+            "aliases": [],
+            "category": "Utility"
+        },
+        {
+            "name": "tag create",
+            "description": "",
+            "usage": null,
+            "help": "create a tag",
+            "brief": "manage server",
+            "aliases": [
+                "make"
+            ],
+            "category": "Utility"
+        },
+        {
+            "name": "tag search",
+            "description": "",
+            "usage": null,
+            "help": "search for a tag",
+            "brief": null,
+            "aliases": [],
+            "category": "Utility"
+        },
+        {
+            "name": "tag reset",
+            "description": "",
+            "usage": null,
+            "help": "delete all tags in the guild",
+            "brief": "manage server",
+            "aliases": [],
+            "category": "Utility"
+        },
+        {
+            "name": "tag edit",
+            "description": "",
+            "usage": null,
+            "help": "edit a tag",
+            "brief": "tag owner",
+            "aliases": [],
+            "category": "Utility"
+        },
+        {
+            "name": "tag remove",
+            "description": "",
+            "usage": null,
+            "help": "delete a tag",
+            "brief": "manage server",
+            "aliases": [
+                "delete",
+                "del"
+            ],
+            "category": "Utility"
+        },
+        {
+            "name": "tag random",
+            "description": "",
+            "usage": null,
+            "help": "returns a random tag from the guild",
+            "brief": null,
+            "aliases": [],
+            "category": "Utility"
+        },
+        {
+            "name": "perks",
+            "description": "",
+            "usage": null,
+            "help": "Check the perks that you get for donating $3 to us / boost our server",
+            "brief": null,
+            "aliases": [],
+            "category": "Utility"
+        },
+        {
+            "name": "fyp",
+            "description": "",
+            "usage": null,
+            "help": "Get a random tiktok video",
+            "brief": null,
+            "aliases": [
+                "foryou",
+                "foryoupage"
+            ],
+            "category": "Utility"
+        },
+        {
+            "name": "weather",
+            "description": "",
+            "usage": null,
+            "help": "Returns the weather of a location",
+            "brief": null,
+            "aliases": [],
+            "category": "Utility"
+        },
+        {
+            "name": "avatar",
+            "description": "",
+            "usage": null,
+            "help": "Return someone's avatar",
+            "brief": null,
+            "aliases": [
+                "av"
+            ],
+            "category": "Utility"
+        },
+        {
+            "name": "editsnipe",
+            "description": "",
+            "usage": null,
+            "help": "Get the most recent edited message in the channel",
+            "brief": null,
+            "aliases": [
+                "es"
+            ],
+            "category": "Utility"
+        },
+        {
+            "name": "invites",
+            "description": "",
+            "usage": null,
+            "help": "returns the number of invites you have in the server",
+            "brief": null,
+            "aliases": [],
+            "category": "Utility"
+        },
+        {
+            "name": "afk",
+            "description": "",
+            "usage": null,
+            "help": "let the members know that you're away",
+            "brief": null,
+            "aliases": [],
+            "category": "Utility"
+        },
+        {
+            "name": "github",
+            "description": "",
+            "usage": null,
+            "help": "Get someone's github profile",
+            "brief": null,
+            "aliases": [
+                "git"
+            ],
+            "category": "Utility"
+        },
+        {
+            "name": "oldest",
+            "description": "",
+            "usage": null,
+            "help": "Get the oldest account in the server",
+            "brief": null,
+            "aliases": [],
+            "category": "Utility"
+        },
+        {
+            "name": "clearsnipes",
+            "description": "",
+            "usage": null,
+            "help": "Clear the snipes from the channel",
+            "brief": "manage messages",
+            "aliases": [
+                "cs"
+            ],
+            "category": "Utility"
+        },
+        {
+            "name": "prices",
+            "description": "",
+            "usage": null,
+            "help": "Check the bot's prices",
+            "brief": null,
+            "aliases": [],
+            "category": "Utility"
+        },
+        {
+            "name": "joins",
+            "description": "",
+            "usage": null,
+            "help": "Returns a list of members that joined in the last 24 hours",
+            "brief": null,
+            "aliases": [],
+            "category": "Utility"
+        },
+        {
+            "name": "firstmessage",
+            "description": "",
+            "usage": null,
+            "help": "Get the first message in a channel",
+            "brief": null,
+            "aliases": [
+                "firstmsg"
+            ],
+            "category": "Utility"
+        },
+        {
+            "name": "donate",
+            "description": "",
+            "usage": null,
+            "help": "Our available payment methods listed",
+            "brief": null,
+            "aliases": [],
+            "category": "Utility"
+        },
+        {
+            "name": "userinfo",
+            "description": "",
+            "usage": null,
+            "help": "Returns information about an user",
+            "brief": null,
+            "aliases": [
+                "user",
+                "ui",
+                "whois"
+            ],
+            "category": "Utility"
+        },
+        {
+            "name": "clearavatars",
+            "description": "",
+            "usage": null,
+            "help": "Clear your avatar history",
+            "brief": null,
+            "aliases": [
+                "clearavs",
+                "clearavh",
+                "clearavatarhistory"
+            ],
+            "category": "Utility"
+        },
+        {
+            "name": "clearnames",
+            "description": "",
+            "usage": null,
+            "help": "clear your username history",
+            "brief": null,
+            "aliases": [
+                "clearusernames",
+                "deletenames",
+                "deleteusernames"
+            ],
+            "category": "Utility"
+        },
+        {
+            "name": "seen",
+            "description": "",
+            "usage": null,
+            "help": "Check when a member was last seen",
+            "brief": null,
+            "aliases": [],
+            "category": "Utility"
+        },
+        {
+            "name": "picperms",
+            "description": "",
+            "usage": null,
+            "help": "Give a member permissions to post attachments in a channel",
+            "brief": "manage messages",
+            "aliases": [
+                "pic"
+            ],
+            "category": "Utility"
+        },
+        {
+            "name": "birthday list",
+            "description": "",
+            "usage": null,
+            "help": "Get the birthdays of everyone in this server",
+            "brief": null,
+            "aliases": [],
+            "category": "Utility"
+        },
+        {
+            "name": "birthday unset",
+            "description": "",
+            "usage": null,
+            "help": "Unset your birthday",
+            "brief": null,
+            "aliases": [],
+            "category": "Utility"
+        },
+        {
+            "name": "birthday set",
+            "description": "",
+            "usage": null,
+            "help": "Set your birthday",
+            "brief": null,
+            "aliases": [],
+            "category": "Utility"
+        },
+        {
+            "name": "roles",
+            "description": "",
+            "usage": null,
+            "help": "Returns a list of server's roles",
+            "brief": null,
+            "aliases": [],
+            "category": "Utility"
+        },
+        {
+            "name": "tiktok",
+            "description": "",
+            "usage": null,
+            "help": "Get someone's tiktok profile",
+            "brief": null,
+            "aliases": [
+                "tt"
+            ],
+            "category": "Utility"
+        },
+        {
+            "name": "reactionsnipe",
+            "description": "",
+            "usage": null,
+            "help": "Get the most recent message with a reaction removed in this channel",
+            "brief": null,
+            "aliases": [
+                "rs"
+            ],
+            "category": "Utility"
+        },
+        {
+            "name": "instagram",
+            "description": "",
+            "usage": null,
+            "help": "Get someone's instagram profile ",
+            "brief": null,
+            "aliases": [
+                "ig"
+            ],
+            "category": "Utility"
+        },
+        {
+            "name": "serverinfo",
+            "description": "",
+            "usage": null,
+            "help": "Get the information about a server",
+            "brief": null,
+            "aliases": [
+                "si"
+            ],
+            "category": "Utility"
+        },
+        {
+            "name": "avatarhistory",
+            "description": "",
+            "usage": null,
+            "help": "Check a member's avatar history",
+            "brief": null,
+            "aliases": [
+                "avh"
+            ],
+            "category": "Utility"
+        },
+        {
+            "name": "snipe",
+            "description": "",
+            "usage": null,
+            "help": "Get the most recent deleted message in the channel",
+            "brief": null,
+            "aliases": [
+                "s"
+            ],
+            "category": "Utility"
+        },
+        {
+            "name": "muted",
+            "description": "",
+            "usage": null,
+            "help": "Returns a list of muted members",
+            "brief": null,
+            "aliases": [],
+            "category": "Utility"
+        },
+        {
+            "name": "screenshot",
+            "description": "",
+            "usage": null,
+            "help": null,
+            "brief": null,
+            "aliases": [
+                "ss",
+                "screenie"
+            ],
+            "category": "Utility"
+        },
+        {
+            "name": "youngest",
+            "description": "",
+            "usage": null,
+            "help": "Get the youngest account in the server",
+            "brief": null,
+            "aliases": [],
+            "category": "Utility"
+        }
+    ],
+    "Emoji": [
+        {
+            "name": "stickerenlarge",
+            "description": "",
+            "usage": null,
+            "help": "Return a sticker as a file",
+            "brief": null,
+            "aliases": [
+                "stickerjumbo"
+            ],
+            "category": "Emoji"
+        },
+        {
+            "name": "stealsticker",
+            "description": "",
+            "usage": null,
+            "help": "Add a sticker to the server",
+            "brief": "manage expressions",
+            "aliases": [
+                "stickersteal",
+                "addsticker",
+                "stickeradd"
+            ],
+            "category": "Emoji"
+        },
+        {
+            "name": "addemoji",
+            "description": "",
+            "usage": null,
+            "help": "Add an emoji to the server",
+            "brief": "manage expressions",
+            "aliases": [
+                "stealemoji",
+                "emojiadd",
+                "steal",
+                "add"
+            ],
+            "category": "Emoji"
+        },
+        {
+            "name": "addmultiple",
+            "description": "",
+            "usage": null,
+            "help": "Add multiple emojis at the same time",
+            "brief": "manage expressions",
+            "aliases": [
+                "am"
+            ],
+            "category": "Emoji"
+        },
+        {
+            "name": "deleteemoji",
+            "description": "",
+            "usage": null,
+            "help": "Delete an emoji from the server",
+            "brief": "manage expressions",
+            "aliases": [
+                "delemoji",
+                "emojidelete",
+                "removeemoji",
+                "emojiremove"
+            ],
+            "category": "Emoji"
+        },
+        {
+            "name": "enlarge",
+            "description": "",
+            "usage": null,
+            "help": "Get an image version of an emoji",
+            "brief": null,
+            "aliases": [
+                "downloademoji",
+                "e",
+                "jumbo"
+            ],
+            "category": "Emoji"
+        },
+        {
+            "name": "emojiinfo",
+            "description": "",
+            "usage": null,
+            "help": "Information about an emoji",
+            "brief": null,
+            "aliases": [
+                "ei"
+            ],
+            "category": "Emoji"
+        },
+        {
+            "name": "emojis",
+            "description": "",
+            "usage": null,
+            "help": "Returns a list of emojis in the server",
+            "brief": null,
+            "aliases": [
+                "emojilist"
+            ],
+            "category": "Emoji"
+        },
+        {
+            "name": "sticker steal",
+            "description": "",
+            "usage": null,
+            "help": "Add a sticker",
+            "brief": "manage expressions",
+            "aliases": [
+                "add"
+            ],
+            "category": "Emoji"
+        },
+        {
+            "name": "sticker zip",
+            "description": "",
+            "usage": null,
+            "help": "Send a zip file containing the server's stickers",
+            "brief": null,
+            "aliases": [],
+            "category": "Emoji"
+        },
+        {
+            "name": "sticker enlarge",
+            "description": "",
+            "usage": null,
+            "help": "Returns a sticker as a file",
+            "brief": null,
+            "aliases": [
+                "e",
+                "jumbo"
+            ],
+            "category": "Emoji"
+        },
+        {
+            "name": "sticker delete",
+            "description": "",
+            "usage": null,
+            "help": "Delete a sticker",
+            "brief": "manage expressions",
+            "aliases": [],
+            "category": "Emoji"
+        },
+        {
+            "name": "sticker tag",
+            "description": "",
+            "usage": null,
+            "help": "Add your server's vanity URL to the end of sticker names",
+            "brief": "manage expressions",
+            "aliases": [],
+            "category": "Emoji"
+        },
+        {
+            "name": "emoji list",
+            "description": "",
+            "usage": null,
+            "help": "Returns a list of emojis in this server",
+            "brief": null,
+            "aliases": [],
+            "category": "Emoji"
+        },
+        {
+            "name": "emoji info",
+            "description": "",
+            "usage": null,
+            "help": "Information about an emoji",
+            "brief": null,
+            "aliases": [],
+            "category": "Emoji"
+        },
+        {
+            "name": "emoji enlarge",
+            "description": "",
+            "usage": null,
+            "help": "Gets an image version of your emoji",
+            "brief": null,
+            "aliases": [
+                "download",
+                "e",
+                "jumbo"
+            ],
+            "category": "Emoji"
+        },
+        {
+            "name": "emoji zip",
+            "description": "",
+            "usage": null,
+            "help": "Send a zip file of all emojis in the server",
+            "brief": null,
+            "aliases": [],
+            "category": "Emoji"
+        },
+        {
+            "name": "emoji delete",
+            "description": "",
+            "usage": null,
+            "help": "Delete an emoji from the server",
+            "brief": "manage expressions",
+            "aliases": [
+                "remove",
+                "del"
+            ],
+            "category": "Emoji"
+        },
+        {
+            "name": "emoji search",
+            "description": "",
+            "usage": null,
+            "help": "Search emojis based by query",
+            "brief": null,
+            "aliases": [],
+            "category": "Emoji"
+        },
+        {
+            "name": "emoji add",
+            "description": "",
+            "usage": null,
+            "help": "Add an emoji to the server",
+            "brief": "manage expressions",
+            "aliases": [
+                "steal"
+            ],
+            "category": "Emoji"
+        }
+    ],
+    "Config": [
+        {
+            "name": "selfprefix",
+            "description": "",
+            "usage": null,
+            "help": "set a personal prefix",
+            "brief": null,
+            "aliases": [],
+            "category": "Config"
+        },
+        {
+            "name": "confessions channel",
+            "description": "",
+            "usage": null,
+            "help": "get the confessions channel",
+            "brief": null,
+            "aliases": [],
+            "category": "Config"
+        },
+        {
+            "name": "confessions mute",
+            "description": "",
+            "usage": null,
+            "help": "mute a member that sent a specific confession",
+            "brief": "manage messages",
+            "aliases": [],
+            "category": "Config"
+        },
+        {
+            "name": "confessions unmute",
+            "description": "",
+            "usage": null,
+            "help": null,
+            "brief": "manage messages",
+            "aliases": [],
+            "category": "Config"
+        },
+        {
+            "name": "confessions add",
+            "description": "",
+            "usage": null,
+            "help": "set the confessions channel",
+            "brief": "manage_guild",
+            "aliases": [],
+            "category": "Config"
+        },
+        {
+            "name": "confessions remove",
+            "description": "",
+            "usage": null,
+            "help": "disable the confessions module",
+            "brief": "manage_guild",
+            "aliases": [
+                "disable"
+            ],
+            "category": "Config"
+        },
+        {
+            "name": "prefix",
+            "description": "",
+            "usage": null,
+            "help": "set a guild prefix",
+            "brief": "manage server",
+            "aliases": [],
+            "category": "Config"
+        },
+        {
+            "name": "alias remove",
+            "description": "",
+            "usage": null,
+            "help": "Remove an alias for a command",
+            "brief": "manage server",
+            "aliases": [],
+            "category": "Config"
+        },
+        {
+            "name": "alias list",
+            "description": "",
+            "usage": null,
+            "help": "Returns all the aliases in the server",
+            "brief": "manage server",
+            "aliases": [],
+            "category": "Config"
+        },
+        {
+            "name": "alias add",
+            "description": "",
+            "usage": null,
+            "help": "Create a shortcut for a command",
+            "brief": "manage server",
+            "aliases": [],
+            "category": "Config"
+        },
+        {
+            "name": "imageonly remove",
+            "description": "",
+            "usage": null,
+            "help": "remove an image only channel",
+            "brief": "manage channels",
+            "aliases": [],
+            "category": "Config"
+        },
+        {
+            "name": "imageonly list",
+            "description": "",
+            "usage": null,
+            "help": "returns a list of all image only channels",
+            "brief": "manage channels",
+            "aliases": [],
+            "category": "Config"
+        },
+        {
+            "name": "imageonly add",
+            "description": "",
+            "usage": null,
+            "help": "add an image only channel",
+            "brief": "manage channels",
+            "aliases": [],
+            "category": "Config"
+        },
+        {
+            "name": "reactionrole list",
+            "description": "",
+            "usage": null,
+            "help": "returns a list of reaction roles in the server",
+            "brief": null,
+            "aliases": [],
+            "category": "Config"
+        },
+        {
+            "name": "reactionrole add",
+            "description": "",
+            "usage": "example: ;rr add https://discord.com/channels/1134194462218788977/1134194463238000743/1136758099282231446 :skull: dead chat",
+            "help": "add a reaction role message to an emoji",
+            "brief": "manage roles",
+            "aliases": [],
+            "category": "Config"
+        },
+        {
+            "name": "reactionrole clear",
+            "description": "delete every reaction role in the server",
+            "usage": null,
+            "help": "delete every reaction role in the server",
+            "brief": "manage server",
+            "aliases": [],
+            "category": "Config"
+        },
+        {
+            "name": "reactionrole remove",
+            "description": "",
+            "usage": "example: ;rr remove https://discord.com/channels/1134194462218788977/1134194463238000743/1136758099282231446 :skull:",
+            "help": "remove a certain reaction role emoji",
+            "brief": "manage roles",
+            "aliases": [],
+            "category": "Config"
+        },
+        {
+            "name": "fakepermissions remove",
+            "description": "",
+            "usage": null,
+            "help": "remove a permission from the role's fake permissions",
+            "brief": "administrator",
+            "aliases": [],
+            "category": "Config"
+        },
+        {
+            "name": "fakepermissions perms",
+            "description": "",
+            "usage": null,
+            "help": "get every valid permission that can be used for fake permissions",
+            "brief": null,
+            "aliases": [],
+            "category": "Config"
+        },
+        {
+            "name": "fakepermissions list",
+            "description": "",
+            "usage": null,
+            "help": "returns a list of the fake permissions associated with a specific role",
+            "brief": null,
+            "aliases": [],
+            "category": "Config"
+        },
+        {
+            "name": "fakepermissions add",
+            "description": "",
+            "usage": null,
+            "help": "add a fake permission to a role",
+            "brief": "administrator",
+            "aliases": [
+                "append"
+            ],
+            "category": "Config"
+        },
+        {
+            "name": "starboard settings",
+            "description": "",
+            "usage": null,
+            "help": "check the settings for starboard",
+            "brief": null,
+            "aliases": [
+                "config",
+                "stats"
+            ],
+            "category": "Config"
+        },
+        {
+            "name": "starboard disable",
+            "description": "disable the starboard module",
+            "usage": null,
+            "help": "disable the starboard module",
+            "brief": "manage server",
+            "aliases": [
+                "remove",
+                "delete",
+                "clear"
+            ],
+            "category": "Config"
+        },
+        {
+            "name": "starboard emoji",
+            "description": "",
+            "usage": null,
+            "help": "set the starboard emoji",
+            "brief": "manage server",
+            "aliases": [
+                "reaction"
+            ],
+            "category": "Config"
+        },
+        {
+            "name": "starboard channel",
+            "description": "",
+            "usage": null,
+            "help": "set the channel where all the starboard messages go",
+            "brief": "manage server",
+            "aliases": [],
+            "category": "Config"
+        },
+        {
+            "name": "starboard count",
+            "description": "",
+            "usage": null,
+            "help": "set the minimum number of reactions a message has to have to be on the starboard",
+            "brief": "manage server",
+            "aliases": [
+                "reactions"
+            ],
+            "category": "Config"
+        },
+        {
+            "name": "editembed",
+            "description": "",
+            "usage": null,
+            "help": "edit an embed sent by pretend",
+            "brief": "manage messages",
+            "aliases": [
+                "ee"
+            ],
+            "category": "Config"
+        },
+        {
+            "name": "restrictcommand remove",
+            "description": "",
+            "usage": null,
+            "help": "Stop allowing a role to use a command",
+            "brief": "manage sever",
+            "aliases": [
+                "delete",
+                "del"
+            ],
+            "category": "Config"
+        },
+        {
+            "name": "restrictcommand add",
+            "description": "",
+            "usage": null,
+            "help": "Restrict a command to the given role",
+            "brief": "manage sever",
+            "aliases": [
+                "make"
+            ],
+            "category": "Config"
+        },
+        {
+            "name": "restrictcommand list",
+            "description": "",
+            "usage": null,
+            "help": "Get a list of all restricted commands",
+            "brief": "manage server",
+            "aliases": [],
+            "category": "Config"
+        },
+        {
+            "name": "createembed",
+            "description": "",
+            "usage": null,
+            "help": "create an embed using an embed code",
+            "brief": "manage messages",
+            "aliases": [
+                "ce"
+            ],
+            "category": "Config"
+        },
+        {
+            "name": "disablemodule remove",
+            "description": "",
+            "usage": null,
+            "help": "remove a disabled module",
+            "brief": "manage server",
+            "aliases": [],
+            "category": "Config"
+        },
+        {
+            "name": "disablemodule list",
+            "description": "",
+            "usage": null,
+            "help": "returns a list of all disabled modules",
+            "brief": "manage server",
+            "aliases": [],
+            "category": "Config"
+        },
+        {
+            "name": "disablemodule add",
+            "description": "",
+            "usage": null,
+            "help": "add a disabled module",
+            "brief": "manage server",
+            "aliases": [],
+            "category": "Config"
+        },
+        {
+            "name": "embedsetup",
+            "description": "",
+            "usage": null,
+            "help": "Create an embed using buttons and return an embed code",
+            "brief": "manage_messages",
+            "aliases": [],
+            "category": "Config"
+        },
+        {
+            "name": "copyembed",
+            "description": "",
+            "usage": null,
+            "help": "copy the embed code of a certain embed",
+            "brief": null,
+            "aliases": [],
+            "category": "Config"
+        },
+        {
+            "name": "usertrack add",
+            "description": "",
+            "usage": null,
+            "help": "add a channel for username tracking",
+            "brief": "manage guild",
+            "aliases": [],
+            "category": "Config"
+        },
+        {
+            "name": "usertrack remove",
+            "description": "",
+            "usage": null,
+            "help": "remove the username tracking from your server",
+            "brief": "manage guild",
+            "aliases": [],
+            "category": "Config"
+        },
+        {
+            "name": "editrole icon",
+            "description": "",
+            "usage": null,
+            "help": "edit a role's icon",
+            "brief": "manage roles",
+            "aliases": [],
+            "category": "Config"
+        },
+        {
+            "name": "editrole hoist",
+            "description": "",
+            "usage": null,
+            "help": "make a role hoisted or not",
+            "brief": "manage roles",
+            "aliases": [],
+            "category": "Config"
+        },
+        {
+            "name": "editrole name",
+            "description": "",
+            "usage": null,
+            "help": "edit a role's name",
+            "brief": "manage roles",
+            "aliases": [],
+            "category": "Config"
+        },
+        {
+            "name": "editrole color",
+            "description": "",
+            "usage": null,
+            "help": "edit a role's color",
+            "brief": "manage roles",
+            "aliases": [
+                "colour"
+            ],
+            "category": "Config"
+        },
+        {
+            "name": "variables",
+            "description": "",
+            "usage": null,
+            "help": "returns the variables for embed building",
+            "brief": null,
+            "aliases": [],
+            "category": "Config"
+        },
+        {
+            "name": "autorole add",
+            "description": "",
+            "usage": null,
+            "help": "assign a role to the autorole module",
+            "brief": "manage server",
+            "aliases": [],
+            "category": "Config"
+        },
+        {
+            "name": "autorole list",
+            "description": "",
+            "usage": null,
+            "help": "returns a list of autoroles",
+            "brief": null,
+            "aliases": [],
+            "category": "Config"
+        },
+        {
+            "name": "autorole remove",
+            "description": "",
+            "usage": null,
+            "help": "remove a role from the autorole",
+            "brief": "manage server",
+            "aliases": [],
+            "category": "Config"
+        },
+        {
+            "name": "autorole clear",
+            "description": "clear the autorole list",
+            "usage": null,
+            "help": "delete all the roles from the autorole",
+            "brief": "manage server",
+            "aliases": [],
+            "category": "Config"
+        },
+        {
+            "name": "bumpreminder thankyou",
+            "description": "",
+            "usage": null,
+            "help": "set the message that will be sent after a person bumps the server",
+            "brief": "manage server",
+            "aliases": [
+                "ty"
+            ],
+            "category": "Config"
+        },
+        {
+            "name": "bumpreminder enable",
+            "description": "",
+            "usage": null,
+            "help": "enable the disboard bump reminder feature in your server",
+            "brief": "manage server",
+            "aliases": [],
+            "category": "Config"
+        },
+        {
+            "name": "bumpreminder reminder",
+            "description": "",
+            "usage": null,
+            "help": "set the message that will be sent when bumping is available",
+            "brief": "manage server",
+            "aliases": [],
+            "category": "Config"
+        },
+        {
+            "name": "bumpreminder disable",
+            "description": "",
+            "usage": null,
+            "help": "disable the disboard bump reminder feature",
+            "brief": "manage server",
+            "aliases": [],
+            "category": "Config"
+        },
+        {
+            "name": "set name",
+            "description": "",
+            "usage": null,
+            "help": "Change your server's name",
+            "brief": "manage server",
+            "aliases": [],
+            "category": "Config"
+        },
+        {
+            "name": "set splash",
+            "description": "",
+            "usage": null,
+            "help": "Change your server's splash",
+            "brief": "manage server",
+            "aliases": [],
+            "category": "Config"
+        },
+        {
+            "name": "set icon",
+            "description": "",
+            "usage": null,
+            "help": "Change your server's icon",
+            "brief": "manage server",
+            "aliases": [
+                "picture",
+                "pic"
+            ],
+            "category": "Config"
+        },
+        {
+            "name": "set banner",
+            "description": "",
+            "usage": null,
+            "help": "Change your server's banner",
+            "brief": "manage server",
+            "aliases": [],
+            "category": "Config"
+        },
+        {
+            "name": "disablecmd",
+            "description": "",
+            "usage": null,
+            "help": "disable a command in the server",
+            "brief": "manage server",
+            "aliases": [
+                "disablecommand"
+            ],
+            "category": "Config"
+        },
+        {
+            "name": "enablecmd",
+            "description": "",
+            "usage": null,
+            "help": "enable a command in the server",
+            "brief": "manage server",
+            "aliases": [
+                "enablecommand"
+            ],
+            "category": "Config"
+        },
+        {
+            "name": "invoke unban",
+            "description": "",
+            "usage": null,
+            "help": "add a custom unban message",
+            "brief": "manage guild",
+            "aliases": [],
+            "category": "Config"
+        },
+        {
+            "name": "invoke unmute",
+            "description": "",
+            "usage": null,
+            "help": "add a custom unmute message",
+            "brief": "manage guild",
+            "aliases": [],
+            "category": "Config"
+        },
+        {
+            "name": "invoke jail",
+            "description": "",
+            "usage": null,
+            "help": "add a custom jail message",
+            "brief": "manage guild",
+            "aliases": [],
+            "category": "Config"
+        },
+        {
+            "name": "invoke mute",
+            "description": "",
+            "usage": null,
+            "help": "add a custom mute message",
+            "brief": "manage guild",
+            "aliases": [],
+            "category": "Config"
+        },
+        {
+            "name": "invoke variables",
+            "description": "",
+            "usage": null,
+            "help": "returns invoke variables",
+            "brief": null,
+            "aliases": [],
+            "category": "Config"
+        },
+        {
+            "name": "invoke kick",
+            "description": "",
+            "usage": null,
+            "help": "add a custom kick message",
+            "brief": "manage guild",
+            "aliases": [],
+            "category": "Config"
+        },
+        {
+            "name": "invoke unjail",
+            "description": "",
+            "usage": null,
+            "help": "add a custom unjail message",
+            "brief": "manage guild",
+            "aliases": [],
+            "category": "Config"
+        },
+        {
+            "name": "invoke ban",
+            "description": "",
+            "usage": null,
+            "help": "add a custom ban message",
+            "brief": "manage guild",
+            "aliases": [],
+            "category": "Config"
+        }
+    ],
+    "Leveling": [
+        {
+            "name": "level test",
+            "description": "",
+            "usage": null,
+            "help": "test your level up message",
+            "brief": "manage guild",
+            "aliases": [],
+            "category": "Leveling"
+        },
+        {
+            "name": "level message",
+            "description": "",
+            "usage": null,
+            "help": "set a custom level up message",
+            "brief": "manage server",
+            "aliases": [],
+            "category": "Leveling"
+        },
+        {
+            "name": "level multiplier",
+            "description": "",
+            "usage": null,
+            "help": "manage the xp multiplier for boosters",
+            "brief": "manage server",
+            "aliases": [],
+            "category": "Leveling"
+        },
+        {
+            "name": "level config",
+            "description": "",
+            "usage": null,
+            "help": "check the settings for the leveling system",
+            "brief": null,
+            "aliases": [
+                "settings",
+                "stats",
+                "statistics",
+                "status"
+            ],
+            "category": "Leveling"
+        },
+        {
+            "name": "level set",
+            "description": "",
+            "usage": null,
+            "help": "set a level to a member",
+            "brief": "manage guild",
+            "aliases": [],
+            "category": "Leveling"
+        },
+        {
+            "name": "level enable",
+            "description": "",
+            "usage": null,
+            "help": "enable the leveling system",
+            "brief": "manage guild",
+            "aliases": [],
+            "category": "Leveling"
+        },
+        {
+            "name": "level disable",
+            "description": "",
+            "usage": null,
+            "help": "disable the leveling system",
+            "brief": "manage guild",
+            "aliases": [],
+            "category": "Leveling"
+        },
+        {
+            "name": "level leaderboard",
+            "description": "",
+            "usage": null,
+            "help": "returns a top leaderboard for leveling",
+            "brief": null,
+            "aliases": [
+                "lb"
+            ],
+            "category": "Leveling"
+        },
+        {
+            "name": "level rewards",
+            "description": "",
+            "usage": null,
+            "help": "get roles for leveling up",
+            "brief": "manage server",
+            "aliases": [],
+            "category": "Leveling"
+        },
+        {
+            "name": "level variables",
+            "description": "",
+            "usage": null,
+            "help": "returns the variables you can use for your custom level message",
+            "brief": null,
+            "aliases": [],
+            "category": "Leveling"
+        },
+        {
+            "name": "level reset",
+            "description": "",
+            "usage": null,
+            "help": "reset the level for a member or every member",
+            "brief": "manage server",
+            "aliases": [],
+            "category": "Leveling"
+        },
+        {
+            "name": "level channel",
+            "description": "",
+            "usage": null,
+            "help": "set the level up message destination",
+            "brief": "manage guild",
+            "aliases": [],
+            "category": "Leveling"
+        },
+        {
+            "name": "rank",
+            "description": "",
+            "usage": null,
+            "help": "get the rank of a member",
+            "brief": null,
+            "aliases": [],
+            "category": "Leveling"
+        }
+    ],
+    "Fun": [
+        {
+            "name": "blacktea",
+            "description": "",
+            "usage": null,
+            "help": "play blacktea with the server members",
+            "brief": null,
+            "aliases": [],
+            "category": "Fun"
+        },
+        {
+            "name": "gay",
+            "description": "",
+            "usage": null,
+            "help": "Gay rate a member",
+            "brief": null,
+            "aliases": [],
+            "category": "Fun"
+        },
+        {
+            "name": "furry",
+            "description": "",
+            "usage": null,
+            "help": "Furry rate a member",
+            "brief": null,
+            "aliases": [],
+            "category": "Fun"
+        },
+        {
+            "name": "marry",
+            "description": "",
+            "usage": null,
+            "help": "Marry a member",
+            "brief": null,
+            "aliases": [],
+            "category": "Fun"
+        },
+        {
+            "name": "stats tictactoe",
+            "description": "",
+            "usage": null,
+            "help": "View a member's stats for tictactoe",
+            "brief": null,
+            "aliases": [
+                "ttt"
+            ],
+            "category": "Fun"
+        },
+        {
+            "name": "stats blacktea",
+            "description": "",
+            "usage": null,
+            "help": "View a member's stats for blacktea",
+            "brief": null,
+            "aliases": [],
+            "category": "Fun"
+        },
+        {
+            "name": "stats rockpaperscissors",
+            "description": "",
+            "usage": null,
+            "help": "View a member's stats for rockpaperscissors",
+            "brief": null,
+            "aliases": [
+                "rps"
+            ],
+            "category": "Fun"
+        },
+        {
+            "name": "dadjoke",
+            "description": "",
+            "usage": null,
+            "help": "Get a random dad joke.",
+            "brief": null,
+            "aliases": [
+                "cringejoke"
+            ],
+            "category": "Fun"
+        },
+        {
+            "name": "cat",
+            "description": "",
+            "usage": null,
+            "help": "Send a random cat image",
+            "brief": null,
+            "aliases": [],
+            "category": "Fun"
+        },
+        {
+            "name": "meme",
+            "description": "",
+            "usage": null,
+            "help": "Generate a random meme.",
+            "brief": null,
+            "aliases": [],
+            "category": "Fun"
+        },
+        {
+            "name": "capybara",
+            "description": "",
+            "usage": null,
+            "help": "Send a random capybara image",
+            "brief": null,
+            "aliases": [],
+            "category": "Fun"
+        },
+        {
+            "name": "lick",
+            "description": "",
+            "usage": null,
+            "help": "Lick someone!",
+            "brief": null,
+            "aliases": [
+                "slurp"
+            ],
+            "category": "Fun"
+        },
+        {
+            "name": "marriage",
+            "description": "",
+            "usage": null,
+            "help": "View an user's marriage",
+            "brief": null,
+            "aliases": [],
+            "category": "Fun"
+        },
+        {
+            "name": "pp",
+            "description": "",
+            "usage": null,
+            "help": "Check someone's pp size",
+            "brief": null,
+            "aliases": [],
+            "category": "Fun"
+        },
+        {
+            "name": "quran",
+            "description": "",
+            "usage": null,
+            "help": "Get a random quran verse",
+            "brief": null,
+            "aliases": [],
+            "category": "Fun"
+        },
+        {
+            "name": "divorce",
+            "description": "",
+            "usage": null,
+            "help": "Divorce from your partner",
+            "brief": null,
+            "aliases": [],
+            "category": "Fun"
+        },
+        {
+            "name": "uselessfact",
+            "description": "",
+            "usage": null,
+            "help": "Returns an useless fact",
+            "brief": null,
+            "aliases": [
+                "fact",
+                "uf"
+            ],
+            "category": "Fun"
+        },
+        {
+            "name": "kiss",
+            "description": "",
+            "usage": null,
+            "help": "Kiss a member",
+            "brief": null,
+            "aliases": [],
+            "category": "Fun"
+        },
+        {
+            "name": "pinch",
+            "description": "",
+            "usage": null,
+            "help": "Pinch a member",
+            "brief": null,
+            "aliases": [],
+            "category": "Fun"
+        },
+        {
+            "name": "song",
+            "description": "",
+            "usage": null,
+            "help": "get information about a song",
+            "brief": null,
+            "aliases": [
+                "music",
+                "beat",
+                "songinfo"
+            ],
+            "category": "Fun"
+        },
+        {
+            "name": "cuddle",
+            "description": "",
+            "usage": null,
+            "help": "Cuddle a member",
+            "brief": null,
+            "aliases": [],
+            "category": "Fun"
+        },
+        {
+            "name": "rockpaperscisssors",
+            "description": "",
+            "usage": null,
+            "help": "Play rockpapaerscissors",
+            "brief": null,
+            "aliases": [
+                "rps"
+            ],
+            "category": "Fun"
+        },
+        {
+            "name": "choose",
+            "description": "",
+            "usage": null,
+            "help": "Choose between options",
+            "brief": null,
+            "aliases": [],
+            "category": "Fun"
+        },
+        {
+            "name": "hug",
+            "description": "",
+            "usage": null,
+            "help": "Hug a member",
+            "brief": null,
+            "aliases": [],
+            "category": "Fun"
+        },
+        {
+            "name": "quickpoll",
+            "description": "",
+            "usage": null,
+            "help": "Create a poll",
+            "brief": null,
+            "aliases": [
+                "poll"
+            ],
+            "category": "Fun"
+        },
+        {
+            "name": "pat",
+            "description": "",
+            "usage": null,
+            "help": "Pat a member",
+            "brief": null,
+            "aliases": [],
+            "category": "Fun"
+        },
+        {
+            "name": "ship",
+            "description": "",
+            "usage": null,
+            "help": "Check the ship rate between you and a member",
+            "brief": null,
+            "aliases": [],
+            "category": "Fun"
+        },
+        {
+            "name": "advice",
+            "description": "",
+            "usage": null,
+            "help": "Get a random advice",
+            "brief": null,
+            "aliases": [],
+            "category": "Fun"
+        },
+        {
+            "name": "pack",
+            "description": "",
+            "usage": null,
+            "help": "Pack a member",
+            "brief": null,
+            "aliases": [],
+            "category": "Fun"
+        },
+        {
+            "name": "tictactoe",
+            "description": "",
+            "usage": null,
+            "help": "Play tictactoe with a member",
+            "brief": null,
+            "aliases": [
+                "ttt"
+            ],
+            "category": "Fun"
+        },
+        {
+            "name": "slap",
+            "description": "",
+            "usage": null,
+            "help": "Slap a member",
+            "brief": null,
+            "aliases": [],
+            "category": "Fun"
+        },
+        {
+            "name": "8ball",
+            "description": "",
+            "usage": null,
+            "help": "Ask the 8ball a question",
+            "brief": null,
+            "aliases": [],
+            "category": "Fun"
+        },
+        {
+            "name": "laugh",
+            "description": "",
+            "usage": null,
+            "help": "Start laughing",
+            "brief": null,
+            "aliases": [],
+            "category": "Fun"
+        },
+        {
+            "name": "bird",
+            "description": "",
+            "usage": null,
+            "help": "Send a random bird image",
+            "brief": null,
+            "aliases": [],
+            "category": "Fun"
+        },
+        {
+            "name": "bible",
+            "description": "",
+            "usage": null,
+            "help": "Get a random bible verse",
+            "brief": null,
+            "aliases": [],
+            "category": "Fun"
+        },
+        {
+            "name": "dog",
+            "description": "",
+            "usage": null,
+            "help": "Send a random dog image",
+            "brief": null,
+            "aliases": [],
+            "category": "Fun"
+        },
+        {
+            "name": "textospeech",
+            "description": "",
+            "usage": null,
+            "help": "Convert your message into audio",
+            "brief": null,
+            "aliases": [
+                "tts"
+            ],
+            "category": "Fun"
+        },
+        {
+            "name": "cry",
+            "description": "",
+            "usage": null,
+            "help": "Start crying",
+            "brief": null,
+            "aliases": [],
+            "category": "Fun"
+        }
+    ],
+    "Music": [
+        {
+            "name": "skip",
+            "description": "",
+            "usage": null,
+            "help": "skip to the next song",
+            "brief": null,
+            "aliases": [
+                "next"
+            ],
+            "category": "Music"
+        },
+        {
+            "name": "play",
+            "description": "",
+            "usage": null,
+            "help": "play a song in the voice channel",
+            "brief": null,
+            "aliases": [
+                "p"
+            ],
+            "category": "Music"
+        },
+        {
+            "name": "loop",
+            "description": "",
+            "usage": null,
+            "help": "Loop the current playing song",
+            "brief": null,
+            "aliases": [],
+            "category": "Music"
+        },
+        {
+            "name": "stop",
+            "description": "",
+            "usage": null,
+            "help": "leave the voice channel",
+            "brief": null,
+            "aliases": [],
+            "category": "Music"
+        },
+        {
+            "name": "pause",
+            "description": "",
+            "usage": null,
+            "help": "Pause the current song",
+            "brief": null,
+            "aliases": [],
+            "category": "Music"
+        },
+        {
+            "name": "resume",
+            "description": "",
+            "usage": null,
+            "help": "resume the current song",
+            "brief": null,
+            "aliases": [],
+            "category": "Music"
+        },
+        {
+            "name": "volume",
+            "description": "",
+            "usage": null,
+            "help": "set the volume to the current playing song",
+            "brief": null,
+            "aliases": [
+                "vol"
+            ],
+            "category": "Music"
+        },
+        {
+            "name": "queue",
+            "description": "",
+            "usage": null,
+            "help": "get a list of the upcoming songs",
+            "brief": null,
+            "aliases": [
+                "q"
+            ],
+            "category": "Music"
+        },
+        {
+            "name": "shuffle",
+            "description": "",
+            "usage": null,
+            "help": "shuffle the whole queue",
+            "brief": null,
+            "aliases": [],
+            "category": "Music"
+        }
+    ],
+    "Voicemaster": [
+        {
+            "name": "interface",
+            "description": "",
+            "usage": null,
+            "help": "Create a custom voice master interface",
+            "brief": "administrator",
+            "aliases": [],
+            "category": "Voicemaster"
+        },
+        {
+            "name": "voice lock",
+            "description": "",
+            "usage": null,
+            "help": "Lock the voice channel",
+            "brief": "vc owner",
+            "aliases": [],
+            "category": "Voicemaster"
+        },
+        {
+            "name": "voice transfer",
+            "description": "",
+            "usage": null,
+            "help": "Transfer the voice channel ownership to another member",
+            "brief": "vc owner",
+            "aliases": [],
+            "category": "Voicemaster"
+        },
+        {
+            "name": "voice claim",
+            "description": "",
+            "usage": null,
+            "help": "config",
+            "brief": null,
+            "aliases": [],
+            "category": "Voicemaster"
+        },
+        {
+            "name": "voice rename",
+            "description": "",
+            "usage": null,
+            "help": "Rename the voice channel",
+            "brief": "vc owner",
+            "aliases": [],
+            "category": "Voicemaster"
+        },
+        {
+            "name": "voice reject",
+            "description": "",
+            "usage": null,
+            "help": "Restrict someone from joining your voice channel",
+            "brief": "vc owner",
+            "aliases": [],
+            "category": "Voicemaster"
+        },
+        {
+            "name": "voice hide",
+            "description": "",
+            "usage": null,
+            "help": "Hide the voice channel",
+            "brief": "vc owner",
+            "aliases": [],
+            "category": "Voicemaster"
+        },
+        {
+            "name": "voice kick",
+            "description": "",
+            "usage": null,
+            "help": "Kick a membert from your voice channel",
+            "brief": "vc owner",
+            "aliases": [],
+            "category": "Voicemaster"
+        },
+        {
+            "name": "voice reveal",
+            "description": "",
+            "usage": null,
+            "help": "Reveal the voice channel",
+            "brief": "vc owner",
+            "aliases": [],
+            "category": "Voicemaster"
+        },
+        {
+            "name": "voice permit",
+            "description": "",
+            "usage": null,
+            "help": "let someone join your locked voice channel",
+            "brief": "vc owner",
+            "aliases": [],
+            "category": "Voicemaster"
+        },
+        {
+            "name": "voice unlock",
+            "description": "",
+            "usage": null,
+            "help": "config",
+            "brief": "vc owner",
+            "aliases": [],
+            "category": "Voicemaster"
+        },
+        {
+            "name": "voicemaster unsetup",
+            "description": "",
+            "usage": null,
+            "help": "Remove the voicemaster module",
+            "brief": "administrator",
+            "aliases": [],
+            "category": "Voicemaster"
+        },
+        {
+            "name": "voicemaster setup",
+            "description": "",
+            "usage": null,
+            "help": "Configure the voicemaster module",
+            "brief": "administrator",
+            "aliases": [],
+            "category": "Voicemaster"
+        }
+    ],
+    "Autopfp": [
+        {
+            "name": "report",
+            "description": "",
+            "usage": null,
+            "help": "Report a picture sent by pretend via autopfp",
+            "brief": null,
+            "aliases": [],
+            "category": "Autopfp"
+        },
+        {
+            "name": "autopfp add",
+            "description": "",
+            "usage": null,
+            "help": "Add an autopfp channel",
+            "brief": "manage server",
+            "aliases": [],
+            "category": "Autopfp"
+        },
+        {
+            "name": "autopfp remove",
+            "description": "",
+            "usage": null,
+            "help": "Remove an autopfp channel",
+            "brief": "manage server",
+            "aliases": [],
+            "category": "Autopfp"
+        },
+        {
+            "name": "autobanner remove",
+            "description": "",
+            "usage": null,
+            "help": "Remove an autobanner channel",
+            "brief": "manage server",
+            "aliases": [],
+            "category": "Autopfp"
+        },
+        {
+            "name": "autobanner add",
+            "description": "",
+            "usage": null,
+            "help": "Add an autobanner channel",
+            "brief": "manage server",
+            "aliases": [],
+            "category": "Autopfp"
+        }
+    ],
+    "Moderation": [
+        {
+            "name": "reactionmute",
+            "description": "",
+            "usage": null,
+            "help": "Revoke a member's reaction permissions",
+            "brief": "manage messages",
+            "aliases": [
+                "rmute"
+            ],
+            "category": "Moderation"
+        },
+        {
+            "name": "unbanall",
+            "description": "",
+            "usage": null,
+            "help": "unban all members from the server",
+            "brief": "ban members",
+            "aliases": [],
+            "category": "Moderation"
+        },
+        {
+            "name": "reactionunmute",
+            "description": "",
+            "usage": null,
+            "help": "Grant a reaction muted member reaction permissions",
+            "brief": "manage messages",
+            "aliases": [
+                "runmute"
+            ],
+            "category": "Moderation"
+        },
+        {
+            "name": "nickname",
+            "description": "",
+            "usage": null,
+            "help": "change a member's nickname",
+            "brief": "manage nicknames",
+            "aliases": [
+                "nick"
+            ],
+            "category": "Moderation"
+        },
+        {
+            "name": "hardban",
+            "description": "",
+            "usage": null,
+            "help": "Keep a member banned from the server",
+            "brief": "administrator & antinuke admin",
+            "aliases": [],
+            "category": "Moderation"
+        },
+        {
+            "name": "strip",
+            "description": "",
+            "usage": null,
+            "help": "remove someone's dangerous roles",
+            "brief": "manage roles",
+            "aliases": [],
+            "category": "Moderation"
+        },
+        {
+            "name": "voicedeafen",
+            "description": "",
+            "usage": null,
+            "help": "Deafen a member in a voice channel",
+            "brief": "deafen members",
+            "aliases": [],
+            "category": "Moderation"
+        },
+        {
+            "name": "unhardban",
+            "description": "",
+            "usage": null,
+            "help": "Unhardban a hardbanned member",
+            "brief": "administrator & antinuke admin",
+            "aliases": [],
+            "category": "Moderation"
+        },
+        {
+            "name": "revokefiles",
+            "description": "",
+            "usage": null,
+            "help": "Remove file attachment permissions from a member",
+            "brief": "manage messages",
+            "aliases": [],
+            "category": "Moderation"
+        },
+        {
+            "name": "category rename",
+            "description": "",
+            "usage": null,
+            "help": "Rename a category in your server",
+            "brief": "manage channels",
+            "aliases": [],
+            "category": "Moderation"
+        },
+        {
+            "name": "category create",
+            "description": "",
+            "usage": null,
+            "help": "Create a category in your server",
+            "brief": "manage channels",
+            "aliases": [],
+            "category": "Moderation"
+        },
+        {
+            "name": "category duplicate",
+            "description": "",
+            "usage": null,
+            "help": "Clone an already existing category in your server",
+            "brief": null,
+            "aliases": [
+                "clone",
+                "remake"
+            ],
+            "category": "Moderation"
+        },
+        {
+            "name": "category delete",
+            "description": "",
+            "usage": null,
+            "help": "Delete a category in your server",
+            "brief": "manage channels",
+            "aliases": [],
+            "category": "Moderation"
+        },
+        {
+            "name": "unlock all",
+            "description": "",
+            "usage": null,
+            "help": "Unlock all locked channels",
+            "brief": "manage channels",
+            "aliases": [],
+            "category": "Moderation"
+        },
+        {
+            "name": "warn list",
+            "description": "",
+            "usage": null,
+            "help": "returns all warns that an user has",
+            "brief": null,
+            "aliases": [],
+            "category": "Moderation"
+        },
+        {
+            "name": "warn clear",
+            "description": "",
+            "usage": null,
+            "help": "clear all warns from an user",
+            "brief": "manage messages",
+            "aliases": [],
+            "category": "Moderation"
+        },
+        {
+            "name": "slowmode",
+            "description": "",
+            "usage": null,
+            "help": "enable slowmode option in a text channel",
+            "brief": "manage channels",
+            "aliases": [],
+            "category": "Moderation"
+        },
+        {
+            "name": "voiceundeafen",
+            "description": "",
+            "usage": null,
+            "help": "Voice undeafen a member",
+            "brief": "deafen members",
+            "aliases": [],
+            "category": "Moderation"
+        },
+        {
+            "name": "clear invites",
+            "description": "",
+            "usage": null,
+            "help": "clear messages that contain discord invite links",
+            "brief": "manage messages",
+            "aliases": [],
+            "category": "Moderation"
+        },
+        {
+            "name": "clear contains",
+            "description": "",
+            "usage": null,
+            "help": "clear messages that contain a certain word",
+            "brief": "manage messages",
+            "aliases": [],
+            "category": "Moderation"
+        },
+        {
+            "name": "clear images",
+            "description": "",
+            "usage": null,
+            "help": "clear messages that have attachments",
+            "brief": "manage messages",
+            "aliases": [],
+            "category": "Moderation"
+        },
+        {
+            "name": "warns",
+            "description": "",
+            "usage": null,
+            "help": "shows all warns of an user",
+            "brief": null,
+            "aliases": [],
+            "category": "Moderation"
+        },
+        {
+            "name": "nuke",
+            "description": "",
+            "usage": null,
+            "help": "replace the current channel with a new one",
+            "brief": "server owner",
+            "aliases": [],
+            "category": "Moderation"
+        },
+        {
+            "name": "roleall",
+            "description": "",
+            "usage": null,
+            "help": "add a role to all members",
+            "brief": "manage_roles",
+            "aliases": [],
+            "category": "Moderation"
+        },
+        {
+            "name": "restore",
+            "description": "",
+            "usage": null,
+            "help": "give a member their roles back after rejoining",
+            "brief": "manage roles",
+            "aliases": [],
+            "category": "Moderation"
+        },
+        {
+            "name": "role",
+            "description": "",
+            "usage": null,
+            "help": "Add roles to a member",
+            "brief": "manage_roles",
+            "aliases": [
+                "r"
+            ],
+            "category": "Moderation"
+        },
+        {
+            "name": "unsetjail",
+            "description": "",
+            "usage": null,
+            "help": "disable the jail module",
+            "brief": "administrator",
+            "aliases": [],
+            "category": "Moderation"
+        },
+        {
+            "name": "unban",
+            "description": "",
+            "usage": null,
+            "help": "unban a member from the server",
+            "brief": "ban members",
+            "aliases": [],
+            "category": "Moderation"
+        },
+        {
+            "name": "pin",
+            "description": "",
+            "usage": null,
+            "help": "Pin a message",
+            "brief": "manage messages",
+            "aliases": [],
+            "category": "Moderation"
+        },
+        {
+            "name": "channel rename",
+            "description": "",
+            "usage": null,
+            "help": "Rename a channel",
+            "brief": "manage channels",
+            "aliases": [
+                "name"
+            ],
+            "category": "Moderation"
+        },
+        {
+            "name": "channel category",
+            "description": "",
+            "usage": null,
+            "help": "Move a channel to a new category",
+            "brief": "manage channels",
+            "aliases": [],
+            "category": "Moderation"
+        },
+        {
+            "name": "channel remove",
+            "description": "",
+            "usage": null,
+            "help": "Delete a channel in your server",
+            "brief": "manage channels",
+            "aliases": [
+                "delete",
+                "del"
+            ],
+            "category": "Moderation"
+        },
+        {
+            "name": "channel topic",
+            "description": "",
+            "usage": null,
+            "help": "Change a channel's topic",
+            "brief": "manage channels",
+            "aliases": [],
+            "category": "Moderation"
+        },
+        {
+            "name": "channel nsfw",
+            "description": "",
+            "usage": null,
+            "help": "Toggle NSFW for a channel",
+            "brief": "manage channels",
+            "aliases": [
+                "naughty"
+            ],
+            "category": "Moderation"
+        },
+        {
+            "name": "channel create",
+            "description": "",
+            "usage": null,
+            "help": "Create a channel in your server",
+            "brief": "manage channels",
+            "aliases": [
+                "make"
+            ],
+            "category": "Moderation"
+        },
+        {
+            "name": "jail",
+            "description": "",
+            "usage": null,
+            "help": "Restrict someone from the server's channels",
+            "brief": "manage messages",
+            "aliases": [],
+            "category": "Moderation"
+        },
+        {
+            "name": "purge",
+            "description": "",
+            "usage": null,
+            "help": "delete more messages at once",
+            "brief": "manage messages",
+            "aliases": [],
+            "category": "Moderation"
+        },
+        {
+            "name": "unpin",
+            "description": "",
+            "usage": null,
+            "help": "Unpin a message",
+            "brief": "manage messages",
+            "aliases": [],
+            "category": "Moderation"
+        },
+        {
+            "name": "botclear",
+            "description": "",
+            "usage": null,
+            "help": "delete messages sent by bots",
+            "brief": "manage messages",
+            "aliases": [
+                "bc",
+                "bp",
+                "botpurge"
+            ],
+            "category": "Moderation"
+        },
+        {
+            "name": "mute",
+            "description": "",
+            "usage": null,
+            "help": "timeout a member",
+            "brief": "moderate members",
+            "aliases": [
+                "timeout",
+                "stfu"
+            ],
+            "category": "Moderation"
+        },
+        {
+            "name": "thread unlock",
+            "description": "",
+            "usage": null,
+            "help": "Unlock a locked thread",
+            "brief": "manage threads",
+            "aliases": [],
+            "category": "Moderation"
+        },
+        {
+            "name": "thread lock",
+            "description": "",
+            "usage": null,
+            "help": "Lock a thread",
+            "brief": "manage threads",
+            "aliases": [],
+            "category": "Moderation"
+        },
+        {
+            "name": "setjail",
+            "description": "",
+            "usage": null,
+            "help": "Set up jail module",
+            "brief": "administrator",
+            "aliases": [],
+            "category": "Moderation"
+        },
+        {
+            "name": "lock role",
+            "description": "",
+            "usage": null,
+            "help": "Set the default role for lockdown",
+            "brief": "manage server",
+            "aliases": [],
+            "category": "Moderation"
+        },
+        {
+            "name": "lock all",
+            "description": "",
+            "usage": null,
+            "help": "Lock all channels",
+            "brief": "manage channels",
+            "aliases": [],
+            "category": "Moderation"
+        },
+        {
+            "name": "lock ignore",
+            "description": "",
+            "usage": null,
+            "help": "Ignore channels from being unlocked when using ;unlock all",
+            "brief": "manage channels",
+            "aliases": [],
+            "category": "Moderation"
+        },
+        {
+            "name": "kick",
+            "description": "",
+            "usage": null,
+            "help": "kick a member from the server",
+            "brief": "kick members",
+            "aliases": [],
+            "category": "Moderation"
+        },
+        {
+            "name": "unjail",
+            "description": "",
+            "usage": null,
+            "help": "lift the jail restriction from a member",
+            "brief": "manage messages",
+            "aliases": [],
+            "category": "Moderation"
+        },
+        {
+            "name": "voicemute",
+            "description": "",
+            "usage": null,
+            "help": "Voice mute a member",
+            "brief": "mute members",
+            "aliases": [],
+            "category": "Moderation"
+        },
+        {
+            "name": "voiceunmute",
+            "description": "",
+            "usage": null,
+            "help": "Voice unmute a member",
+            "brief": "mute members",
+            "aliases": [],
+            "category": "Moderation"
+        },
+        {
+            "name": "ban",
+            "description": "",
+            "usage": null,
+            "help": "ban a member from the server",
+            "brief": "ban members",
+            "aliases": [],
+            "category": "Moderation"
+        },
+        {
+            "name": "jailed",
+            "description": "",
+            "usage": null,
+            "help": "returns the jailed members",
+            "brief": null,
+            "aliases": [],
+            "category": "Moderation"
+        },
+        {
+            "name": "unmute",
+            "description": "",
+            "usage": null,
+            "help": "Remove the timeout from a member",
+            "brief": "moderate members",
+            "aliases": [
+                "untimeout"
+            ],
+            "category": "Moderation"
+        }
+    ],
+    "Counters": [
+        {
+            "name": "counter types",
+            "description": "",
+            "usage": null,
+            "help": "returns the counter types and channel types",
+            "brief": null,
+            "aliases": [],
+            "category": "Counters"
+        },
+        {
+            "name": "counter remove",
+            "description": "",
+            "usage": null,
+            "help": "remove a counter from the server",
+            "brief": "manage guild",
+            "aliases": [],
+            "category": "Counters"
+        },
+        {
+            "name": "counter list",
+            "description": "",
+            "usage": null,
+            "help": "returns a list of the active server counters",
+            "brief": null,
+            "aliases": [],
+            "category": "Counters"
+        },
+        {
+            "name": "counter add",
+            "description": "",
+            "usage": null,
+            "help": "add a counter to the server",
+            "brief": "manage guild",
+            "aliases": [],
+            "category": "Counters"
+        }
+    ],
+    "Logs": [
+        {
+            "name": "logs members",
+            "description": "",
+            "usage": null,
+            "help": "Log member related events",
+            "brief": "manage server",
+            "aliases": [
+                "mbrs"
+            ],
+            "category": "Logs"
+        },
+        {
+            "name": "logs channels",
+            "description": "",
+            "usage": null,
+            "help": "Log channel related events",
+            "brief": "manage server",
+            "aliases": [],
+            "category": "Logs"
+        },
+        {
+            "name": "logs roles",
+            "description": "",
+            "usage": null,
+            "help": "Log role related events",
+            "brief": "manage server",
+            "aliases": [],
+            "category": "Logs"
+        },
+        {
+            "name": "logs messages",
+            "description": "",
+            "usage": null,
+            "help": "Log message related events",
+            "brief": "manage server",
+            "aliases": [
+                "msgs",
+                "msg"
+            ],
+            "category": "Logs"
+        },
+        {
+            "name": "logs guild",
+            "description": "",
+            "usage": null,
+            "help": "Log guild related events",
+            "brief": "manage server",
+            "aliases": [],
+            "category": "Logs"
+        },
+        {
+            "name": "logs settings",
+            "description": "",
+            "usage": null,
+            "help": "Return logs statistics",
+            "brief": "manage server",
+            "aliases": [
+                "stats",
+                "statistics"
+            ],
+            "category": "Logs"
+        }
+    ],
+    "Donor": [
+        {
+            "name": "lookup",
+            "description": "",
+            "usage": null,
+            "help": "get the most recent handles",
+            "brief": "donor",
+            "aliases": [
+                "pomelo",
+                "handles"
+            ],
+            "category": "Donator"
+        },
+        {
+            "name": "selfpurge",
+            "description": "",
+            "usage": null,
+            "help": "delete your own messages",
+            "brief": "donor",
+            "aliases": [
+                "sp"
+            ],
+            "category": "Donator"
+        },
+        {
+            "name": "forcenickname",
+            "description": "",
+            "usage": "forcenick @sent bro\nnone passed as a nickname removes the force nickname",
+            "help": "lock a nickname to a member",
+            "brief": "manage nicknames & donor",
+            "aliases": [
+                "forcenick",
+                "fn"
+            ],
+            "category": "Donator"
+        },
+        {
+            "name": "reskin avatar",
+            "description": "",
+            "usage": null,
+            "help": "change your reskin's avatar",
+            "brief": "donor",
+            "aliases": [
+                "icon",
+                "pfp",
+                "av"
+            ],
+            "category": "Donator"
+        },
+        {
+            "name": "reskin name",
+            "description": "",
+            "usage": null,
+            "help": "edit your reskin name",
+            "brief": "donor",
+            "aliases": [],
+            "category": "Donator"
+        },
+        {
+            "name": "reskin enable",
+            "description": "",
+            "usage": null,
+            "help": "enable reskin feature in your server",
+            "brief": "manage server",
+            "aliases": [],
+            "category": "Donator"
+        },
+        {
+            "name": "reskin disable",
+            "description": "",
+            "usage": null,
+            "help": "disable the reskin feature in your server",
+            "brief": "manage server",
+            "aliases": [],
+            "category": "Donator"
+        },
+        {
+            "name": "reskin remove",
+            "description": "",
+            "usage": null,
+            "help": "delete your reskin",
+            "brief": "donor",
+            "aliases": [
+                "delete",
+                "reset"
+            ],
+            "category": "Donator"
+        },
+        {
+            "name": "chatgpt",
+            "description": "",
+            "usage": null,
+            "help": "Talk to AI",
+            "brief": "donor",
+            "aliases": [
+                "chat",
+                "gpt",
+                "ask"
+            ],
+            "category": "Donator"
+        }
+    ],
+    "Economy": [
+        {
+            "name": "transfer",
+            "description": "",
+            "usage": null,
+            "help": "Transfer cash to a member",
+            "brief": null,
+            "aliases": [],
+            "category": "Economy"
+        },
+        {
+            "name": "dice",
+            "description": "",
+            "usage": null,
+            "help": "Play a dice game",
+            "brief": null,
+            "aliases": [
+                "gamble"
+            ],
+            "category": "Economy"
+        },
+        {
+            "name": "withdraw",
+            "description": "",
+            "usage": null,
+            "help": "withdraw card money to cash",
+            "brief": null,
+            "aliases": [],
+            "category": "Economy"
+        },
+        {
+            "name": "daily",
+            "description": "",
+            "usage": null,
+            "help": "Claim your daily cash",
+            "brief": null,
+            "aliases": [],
+            "category": "Economy"
+        },
+        {
+            "name": "deposit",
+            "description": "",
+            "usage": null,
+            "help": "Deposit cash to card",
+            "brief": null,
+            "aliases": [
+                "dep"
+            ],
+            "category": "Economy"
+        },
+        {
+            "name": "coinflip",
+            "description": "",
+            "usage": null,
+            "help": "Play a coinflip game",
+            "brief": null,
+            "aliases": [],
+            "category": "Economy"
+        },
+        {
+            "name": "work",
+            "description": "",
+            "usage": null,
+            "help": "Work a job and earn money",
+            "brief": null,
+            "aliases": [],
+            "category": "Economy"
+        },
+        {
+            "name": "reset",
+            "description": "",
+            "usage": null,
+            "help": "Close your economy account",
+            "brief": null,
+            "aliases": [],
+            "category": "Economy"
+        },
+        {
+            "name": "leaderboard",
+            "description": "",
+            "usage": null,
+            "help": "Global leaderboard for economy",
+            "brief": null,
+            "aliases": [
+                "lb"
+            ],
+            "category": "Economy"
+        },
+        {
+            "name": "balance",
+            "description": "",
+            "usage": null,
+            "help": "Check someone's balance",
+            "brief": null,
+            "aliases": [
+                "bal"
+            ],
+            "category": "Economy"
+        }
+    ],
+    "Lastfm": [
+        {
+            "name": "lastfm remove",
+            "description": "",
+            "usage": null,
+            "help": "Remove your lastfm account, if you have one registered",
+            "brief": null,
+            "aliases": [
+                "unset"
+            ],
+            "category": "Lastfm"
+        },
+        {
+            "name": "lastfm variables",
+            "description": "",
+            "usage": null,
+            "help": "Returns variables for lastfm custom embeds",
+            "brief": null,
+            "aliases": [],
+            "category": "Lastfm"
+        },
+        {
+            "name": "lastfm topalbums",
+            "description": "",
+            "usage": null,
+            "help": "Returns a member's top 10 albums",
+            "brief": null,
+            "aliases": [
+                "tal"
+            ],
+            "category": "Lastfm"
+        },
+        {
+            "name": "lastfm mode",
+            "description": "",
+            "usage": null,
+            "help": "Design a custom lastfm embed",
+            "brief": null,
+            "aliases": [
+                "embed"
+            ],
+            "category": "Lastfm"
+        },
+        {
+            "name": "lastfm reactions",
+            "description": "",
+            "usage": null,
+            "help": "Set custom reactions for the nowplaying command",
+            "brief": null,
+            "aliases": [],
+            "category": "Lastfm"
+        },
+        {
+            "name": "lastfm globalwhoknows",
+            "description": "",
+            "usage": null,
+            "help": "Get the top listeners of a certain artist",
+            "brief": null,
+            "aliases": [
+                "gwk"
+            ],
+            "category": "Lastfm"
+        },
+        {
+            "name": "lastfm toptracks",
+            "description": "",
+            "usage": null,
+            "help": "Returns a member's top 10 tracks",
+            "brief": null,
+            "aliases": [
+                "tt"
+            ],
+            "category": "Lastfm"
+        },
+        {
+            "name": "lastfm topartists",
+            "description": "",
+            "usage": null,
+            "help": "Returns a member's top 10 artists",
+            "brief": null,
+            "aliases": [
+                "ta",
+                "tar"
+            ],
+            "category": "Lastfm"
+        },
+        {
+            "name": "lastfm whoknows",
+            "description": "",
+            "usage": null,
+            "help": "Get the top listeners of a certain artist from the server",
+            "brief": null,
+            "aliases": [
+                "wk"
+            ],
+            "category": "Lastfm"
+        },
+        {
+            "name": "lastfm howto",
+            "description": "",
+            "usage": null,
+            "help": "lastfm",
+            "brief": null,
+            "aliases": [],
+            "category": "Lastfm"
+        },
+        {
+            "name": "lastfm set",
+            "description": "",
+            "usage": null,
+            "help": "Log in with your lastfm account to the bot",
+            "brief": null,
+            "aliases": [],
+            "category": "Lastfm"
+        },
+        {
+            "name": "lastfm chart",
+            "description": "",
+            "usage": null,
+            "help": "Create an album chart of the user's top albums",
+            "brief": null,
+            "aliases": [
+                "c"
+            ],
+            "category": "Lastfm"
+        },
+        {
+            "name": "lastfm user",
+            "description": "",
+            "usage": null,
+            "help": "Information about a member's lastfm user",
+            "brief": null,
+            "aliases": [
+                "ui"
+            ],
+            "category": "Lastfm"
+        },
+        {
+            "name": "lastfm cover",
+            "description": "",
+            "usage": null,
+            "help": "Get the cover image of your lastfm song",
+            "brief": null,
+            "aliases": [
+                "image"
+            ],
+            "category": "Lastfm"
+        },
+        {
+            "name": "lastfm customcommand",
+            "description": "",
+            "usage": null,
+            "help": "Set a custom alias for lastfm nowplaying command",
+            "brief": null,
+            "aliases": [
+                "cc"
+            ],
+            "category": "Lastfm"
+        },
+        {
+            "name": "lastfm recent",
+            "description": "",
+            "usage": null,
+            "help": "Shows the top 10 most recent songs on lastfm",
+            "brief": null,
+            "aliases": [],
+            "category": "Lastfm"
+        },
+        {
+            "name": "lastfm spotify",
+            "description": "",
+            "usage": null,
+            "help": "Look up for your nowplaying lastfm song on spotify",
+            "brief": null,
+            "aliases": [
+                "sp"
+            ],
+            "category": "Lastfm"
+        },
+        {
+            "name": "nowplaying",
+            "description": "",
+            "usage": null,
+            "help": "Returns the latest song scrobbled on Last.Fm",
+            "brief": null,
+            "aliases": [
+                "np",
+                "fm"
+            ],
+            "category": "Lastfm"
+        }
+    ],
+    "Owner": [
+        {
+            "name": "restart",
+            "description": "",
+            "usage": null,
+            "help": null,
+            "brief": null,
+            "aliases": [],
+            "category": "Owner"
+        },
+        {
+            "name": "anowner",
+            "description": "",
+            "usage": null,
+            "help": "change the antinuke owner in case the real owner cannot access discord",
+            "brief": null,
+            "aliases": [],
+            "category": "Owner"
+        },
+        {
+            "name": "guilds",
+            "description": "",
+            "usage": null,
+            "help": "all guilds the bot is in, sorted from the biggest to the smallest",
+            "brief": null,
+            "aliases": [],
+            "category": "Owner"
+        },
+        {
+            "name": "loadhog",
+            "description": "",
+            "usage": null,
+            "help": "Insert all guilds into posthog",
+            "brief": null,
+            "aliases": [],
+            "category": "Owner"
+        },
+        {
+            "name": "donor add",
+            "description": "",
+            "usage": null,
+            "help": "add donator perks to a member",
+            "brief": null,
+            "aliases": [],
+            "category": "Owner"
+        },
+        {
+            "name": "donor remove",
+            "description": "",
+            "usage": null,
+            "help": "remove donator perks from a member",
+            "brief": null,
+            "aliases": [],
+            "category": "Owner"
+        },
+        {
+            "name": "eval",
+            "description": "",
+            "usage": null,
+            "help": null,
+            "brief": null,
+            "aliases": [
+                "py"
+            ],
+            "category": "Owner"
+        },
+        {
+            "name": "mutuals",
+            "description": "",
+            "usage": null,
+            "help": "returns mutual servers between the member and the bot",
+            "brief": null,
+            "aliases": [],
+            "category": "Owner"
+        },
+        {
+            "name": "globalenable",
+            "description": "",
+            "usage": null,
+            "help": "Globally enable a command.",
+            "brief": null,
+            "aliases": [],
+            "category": "Owner"
+        },
+        {
+            "name": "globaldisable",
+            "description": "",
+            "usage": null,
+            "help": "Globally disable a command.",
+            "brief": null,
+            "aliases": [],
+            "category": "Owner"
+        },
+        {
+            "name": "globaldisabledlist",
+            "description": "",
+            "usage": null,
+            "help": "Show all commands that are globally disabled.",
+            "brief": null,
+            "aliases": [
+                "gdl"
+            ],
+            "category": "Owner"
+        },
+        {
+            "name": "blacklist server",
+            "description": "",
+            "usage": null,
+            "help": "blacklist a server",
+            "brief": null,
+            "aliases": [],
+            "category": "Owner"
+        },
+        {
+            "name": "blacklist user",
+            "description": "",
+            "usage": null,
+            "help": "blacklist or unblacklist a member",
+            "brief": null,
+            "aliases": [],
+            "category": "Owner"
+        },
+        {
+            "name": "error",
+            "description": "",
+            "usage": null,
+            "help": "View information about an error code",
+            "brief": null,
+            "aliases": [
+                "trace"
+            ],
+            "category": "Owner"
+        },
+        {
+            "name": "globalban",
+            "description": "",
+            "usage": null,
+            "help": "ban an user globally",
+            "brief": null,
+            "aliases": [
+                "gban"
+            ],
+            "category": "Owner"
+        },
+        {
+            "name": "reload",
+            "description": "",
+            "usage": null,
+            "help": "Reload a module",
+            "brief": null,
+            "aliases": [
+                "rl"
+            ],
+            "category": "Owner"
+        }
+    ],
+    "Whitelist": [
+        {
+            "name": "whitelist list",
+            "description": "",
+            "usage": null,
+            "help": "View all whitelisted members",
+            "brief": "administrator",
+            "aliases": [],
+            "category": "Whitelist"
+        },
+        {
+            "name": "whitelist message",
+            "description": "",
+            "usage": null,
+            "help": "Change the message sent to users when not in the whitelist",
+            "brief": "administrator",
+            "aliases": [
+                "msg",
+                "dm"
+            ],
+            "category": "Whitelist"
+        },
+        {
+            "name": "whitelist enable",
+            "description": "",
+            "usage": null,
+            "help": "Turn on the whitelist system",
+            "brief": "administrator",
+            "aliases": [],
+            "category": "Whitelist"
+        },
+        {
+            "name": "whitelist add",
+            "description": "",
+            "usage": null,
+            "help": "Add someone to the server whitelist",
+            "brief": "administrator",
+            "aliases": [],
+            "category": "Whitelist"
+        },
+        {
+            "name": "whitelist disable",
+            "description": "",
+            "usage": null,
+            "help": "Turn off the whitelist system",
+            "brief": "administrator",
+            "aliases": [],
+            "category": "Whitelist"
+        },
+        {
+            "name": "whitelist remove",
+            "description": "",
+            "usage": null,
+            "help": "Remove someone from the server whitelist",
+            "brief": "administrator",
+            "aliases": [],
+            "category": "Whitelist"
+        }
+    ],
+    "Info": [
+        {
+            "name": "getbotinvite",
+            "description": "",
+            "usage": null,
+            "help": "Get the bot invite based on it's id",
+            "brief": null,
+            "aliases": [],
+            "category": "Info"
+        },
+        {
+            "name": "thegreatest",
+            "description": "",
+            "usage": null,
+            "help": "a custom command made for damonfsfs",
+            "brief": null,
+            "aliases": [],
+            "category": "Info"
+        },
+        {
+            "name": "commands",
+            "description": "",
+            "usage": null,
+            "help": "The help command menu",
+            "brief": null,
+            "aliases": [
+                "h",
+                "cmds"
+            ],
+            "category": "Info"
+        },
+        {
+            "name": "ping",
+            "description": "",
+            "usage": null,
+            "help": "Displays the bot's latency",
+            "brief": null,
+            "aliases": [],
+            "category": "Info"
+        },
+        {
+            "name": "uptime",
+            "description": "",
+            "usage": null,
+            "help": "Displays how long has the bot been online for",
+            "brief": null,
+            "aliases": [
+                "up"
+            ],
+            "category": "Info"
+        },
+        {
+            "name": "botinfo",
+            "description": "",
+            "usage": null,
+            "help": "Displays information about the bot",
+            "brief": null,
+            "aliases": [
+                "bi",
+                "bot",
+                "info",
+                "about"
+            ],
+            "category": "Info"
+        },
+        {
+            "name": "shards",
+            "description": "",
+            "usage": null,
+            "help": "Check status of each bot shard",
+            "brief": null,
+            "aliases": [],
+            "category": "Info"
+        },
+        {
+            "name": "invite",
+            "description": "",
+            "usage": null,
+            "help": "Send an invite link of the bot",
+            "brief": null,
+            "aliases": [
+                "inv",
+                "link"
+            ],
+            "category": "Info"
+        },
+        {
+            "name": "credits",
+            "description": "",
+            "usage": null,
+            "help": "Get more specific credits for the bot",
+            "brief": null,
+            "aliases": [],
+            "category": "Info"
+        }
+    ],
+    "Auth": [
+        {
+            "name": "auth getinvite",
+            "description": "",
+            "usage": null,
+            "help": "gets the invite of a authorised server",
+            "brief": null,
+            "aliases": [],
+            "category": "Auth"
+        },
+        {
+            "name": "auth remove",
+            "description": "",
+            "usage": null,
+            "help": "Remove the authorization from a guild",
+            "brief": null,
+            "aliases": [],
+            "category": "Auth"
+        },
+        {
+            "name": "auth inspect",
+            "description": "",
+            "usage": null,
+            "help": "check a guild authorization status",
+            "brief": null,
+            "aliases": [],
+            "category": "Auth"
+        },
+        {
+            "name": "auth update",
+            "description": "",
+            "usage": null,
+            "help": "Update the monthly authorization for a server",
+            "brief": null,
+            "aliases": [],
+            "category": "Auth"
+        },
+        {
+            "name": "auth list",
+            "description": "",
+            "usage": null,
+            "help": "returns a list of authorized servers by a certain user",
+            "brief": null,
+            "aliases": [],
+            "category": "Auth"
+        },
+        {
+            "name": "auth transfer",
+            "description": "",
+            "usage": null,
+            "help": "transfer a guild authorization to another guild",
+            "brief": null,
+            "aliases": [],
+            "category": "Auth"
+        },
+        {
+            "name": "auth add",
+            "description": "",
+            "usage": null,
+            "help": "Authorize a server",
+            "brief": null,
+            "aliases": [],
+            "category": "Auth"
+        }
+    ],
+    "Events": [
+        {
+            "name": "leave add",
+            "description": "",
+            "usage": null,
+            "help": "add a leave message to the server",
+            "brief": "manage guild",
+            "aliases": [],
+            "category": "Events"
+        },
+        {
+            "name": "leave config",
+            "description": "",
+            "usage": null,
+            "help": "view any leave message from any channel in the server",
+            "brief": "manage guild",
+            "aliases": [],
+            "category": "Events"
+        },
+        {
+            "name": "leave remove",
+            "description": "",
+            "usage": null,
+            "help": "remove a leave message from the server",
+            "brief": "manage guild",
+            "aliases": [],
+            "category": "Events"
+        },
+        {
+            "name": "leave reset",
+            "description": "",
+            "usage": null,
+            "help": "Delete all the leave messages",
+            "brief": "manage guild",
+            "aliases": [],
+            "category": "Events"
+        },
+        {
+            "name": "leave test",
+            "description": "",
+            "usage": null,
+            "help": "test the leave message in a channel",
+            "brief": "manage guild",
+            "aliases": [],
+            "category": "Events"
+        },
+        {
+            "name": "welcome add",
+            "description": "",
+            "usage": null,
+            "help": "add a welcome message to the server",
+            "brief": "manage guild",
+            "aliases": [],
+            "category": "Events"
+        },
+        {
+            "name": "welcome reset",
+            "description": "",
+            "usage": null,
+            "help": "Delete all the welcome messages",
+            "brief": "manage guild",
+            "aliases": [],
+            "category": "Events"
+        },
+        {
+            "name": "welcome test",
+            "description": "",
+            "usage": null,
+            "help": "test the welcome message in a channel",
+            "brief": "manage guild",
+            "aliases": [],
+            "category": "Events"
+        },
+        {
+            "name": "welcome config",
+            "description": "",
+            "usage": null,
+            "help": "view any welcome message from any channel in the server",
+            "brief": "manage guild",
+            "aliases": [],
+            "category": "Events"
+        },
+        {
+            "name": "welcome remove",
+            "description": "",
+            "usage": null,
+            "help": "remove a welcome message from the server",
+            "brief": "manage guild",
+            "aliases": [],
+            "category": "Events"
+        },
+        {
+            "name": "boost remove",
+            "description": "",
+            "usage": null,
+            "help": "remove a boost message from the server",
+            "brief": "manage guild",
+            "aliases": [],
+            "category": "Events"
+        },
+        {
+            "name": "boost reset",
+            "description": "",
+            "usage": null,
+            "help": "Delete all the boost messages",
+            "brief": "manage guild",
+            "aliases": [],
+            "category": "Events"
+        },
+        {
+            "name": "boost test",
+            "description": "",
+            "usage": null,
+            "help": "test the boost message in a channel",
+            "brief": "manage guild",
+            "aliases": [],
+            "category": "Events"
+        },
+        {
+            "name": "boost add",
+            "description": "",
+            "usage": null,
+            "help": "add a boost message to the server",
+            "brief": "manage guild",
+            "aliases": [],
+            "category": "Events"
+        },
+        {
+            "name": "boost config",
+            "description": "",
+            "usage": null,
+            "help": "view any boost message from any channel in the server",
+            "brief": "manage guild",
+            "aliases": [],
+            "category": "Events"
+        }
+    ],
+    "Giveaway": [
+        {
+            "name": "gcreate",
+            "description": "",
+            "usage": null,
+            "help": "create a giveaway in this server",
+            "brief": "manage server",
+            "aliases": [],
+            "category": "Giveaway"
+        },
+        {
+            "name": "glist",
+            "description": "",
+            "usage": null,
+            "help": "returns a list of active giveaways in the server",
+            "brief": null,
+            "aliases": [],
+            "category": "Giveaway"
+        },
+        {
+            "name": "gend",
+            "description": "",
+            "usage": null,
+            "help": "end a giveaway",
+            "brief": "manage_server",
+            "aliases": [],
+            "category": "Giveaway"
+        },
+        {
+            "name": "greroll",
+            "description": "",
+            "usage": null,
+            "help": "reroll a giveaway",
+            "brief": "manage server",
+            "aliases": [],
+            "category": "Giveaway"
+        },
+        {
+            "name": "giveaway end",
+            "description": "",
+            "usage": null,
+            "help": "end a giveaway",
+            "brief": "manage_server",
+            "aliases": [],
+            "category": "Giveaway"
+        },
+        {
+            "name": "giveaway reroll",
+            "description": "",
+            "usage": null,
+            "help": "reroll a giveaway",
+            "brief": "manage server",
+            "aliases": [],
+            "category": "Giveaway"
+        },
+        {
+            "name": "giveaway list",
+            "description": "",
+            "usage": null,
+            "help": "returns a list of active giveaways in the server",
+            "brief": null,
+            "aliases": [],
+            "category": "Giveaway"
+        },
+        {
+            "name": "giveaway create",
+            "description": "",
+            "usage": null,
+            "help": "create a giveaway in this server",
+            "brief": "manage server",
+            "aliases": [],
+            "category": "Giveaway"
+        }
+    ],
+    "Automod": [
+        {
+            "name": "filter invites",
+            "description": "",
+            "usage": null,
+            "help": "prevent people from sending discord invite links",
+            "brief": null,
+            "aliases": [],
+            "category": "Automod"
+        },
+        {
+            "name": "filter spam",
+            "description": "",
+            "usage": null,
+            "help": "prevent people from spamming messages",
+            "brief": null,
+            "aliases": [],
+            "category": "Automod"
+        },
+        {
+            "name": "filter joins",
+            "description": "",
+            "usage": null,
+            "help": "prevent join raids on your server",
+            "brief": null,
+            "aliases": [],
+            "category": "Automod"
+        },
+        {
+            "name": "filter words",
+            "description": "",
+            "usage": null,
+            "help": "keep the bad words away",
+            "brief": null,
+            "aliases": [],
+            "category": "Automod"
+        }
+    ],
+    "Responders": [
+        {
+            "name": "autoreact remove",
+            "description": "",
+            "usage": null,
+            "help": "remove an autoreact",
+            "brief": "manage guild",
+            "aliases": [],
+            "category": "Responders"
+        },
+        {
+            "name": "autoreact list",
+            "description": "",
+            "usage": null,
+            "help": "returns all the autoreactions in the server",
+            "brief": null,
+            "aliases": [],
+            "category": "Responders"
+        },
+        {
+            "name": "autoreact add",
+            "description": "",
+            "usage": "example: ;autoreact add skull, \ud83d\udc80",
+            "help": "create an autoreact using a trigger for this server",
+            "brief": "manage server",
+            "aliases": [],
+            "category": "Responders"
+        },
+        {
+            "name": "autoresponder add",
+            "description": "",
+            "usage": "example: ;autoresponder add hello, hello world",
+            "help": "add an autoresponder to the server",
+            "brief": "manage server",
+            "aliases": [],
+            "category": "Responders"
+        },
+        {
+            "name": "autoresponder remove",
+            "description": "",
+            "usage": null,
+            "help": "remove an autoresponder from the server",
+            "brief": "manage server",
+            "aliases": [],
+            "category": "Responders"
+        },
+        {
+            "name": "autoresponder list",
+            "description": "",
+            "usage": null,
+            "help": "returns a list of all autoresponders in the server",
+            "brief": null,
+            "aliases": [],
+            "category": "Responders"
+        }
+    ],
+    "Antinuke": [
+        {
+            "name": "antinuke reset",
+            "description": "",
+            "usage": null,
+            "help": "disable the antinuke system",
+            "brief": "antinuke owner",
+            "aliases": [
+                "disable"
+            ],
+            "category": "Antinuke"
+        },
+        {
+            "name": "antinuke kick",
+            "description": "",
+            "usage": null,
+            "help": "prevent admins from kicking members",
+            "brief": "antinuke admin",
+            "aliases": [],
+            "category": "Antinuke"
+        },
+        {
+            "name": "antinuke massmention",
+            "description": "",
+            "usage": null,
+            "help": "protect your server against everyone or here mentions",
+            "brief": "antinuke admin",
+            "aliases": [],
+            "category": "Antinuke"
+        },
+        {
+            "name": "antinuke spammer",
+            "description": "",
+            "usage": null,
+            "help": "protect your server against flagged members",
+            "brief": "antinuke admin",
+            "aliases": [],
+            "category": "Antinuke"
+        },
+        {
+            "name": "antinuke newaccounts",
+            "description": "",
+            "usage": null,
+            "help": "protect your server against new accounts",
+            "brief": "antinuke admin",
+            "aliases": [
+                "newaccs"
+            ],
+            "category": "Antinuke"
+        },
+        {
+            "name": "antinuke setup",
+            "description": "",
+            "usage": null,
+            "help": "setup antinuke",
+            "brief": "antinuke owner",
+            "aliases": [],
+            "category": "Antinuke"
+        },
+        {
+            "name": "antinuke unwhitelist",
+            "description": "",
+            "usage": null,
+            "help": "unwhitelist a member from antinuke",
+            "brief": "antinuke admin",
+            "aliases": [
+                "uwl"
+            ],
+            "category": "Antinuke"
+        },
+        {
+            "name": "antinuke status",
+            "description": "",
+            "usage": null,
+            "help": "check what is enabled in your antinuke system",
+            "brief": null,
+            "aliases": [
+                "settings",
+                "config",
+                "stats"
+            ],
+            "category": "Antinuke"
+        },
+        {
+            "name": "antinuke whitelisted",
+            "description": "",
+            "usage": null,
+            "help": "check who's antinuke whitelisted",
+            "brief": null,
+            "aliases": [],
+            "category": "Antinuke"
+        },
+        {
+            "name": "antinuke admins",
+            "description": "",
+            "usage": null,
+            "help": "list antinuke admins",
+            "brief": null,
+            "aliases": [],
+            "category": "Antinuke"
+        },
+        {
+            "name": "antinuke logs",
+            "description": "",
+            "usage": null,
+            "help": "add an antinuke logs channel",
+            "brief": null,
+            "aliases": [],
+            "category": "Antinuke"
+        },
+        {
+            "name": "antinuke admin",
+            "description": "",
+            "usage": null,
+            "help": "manage the members that can change the antinuke settings",
+            "brief": "antinuke owner",
+            "aliases": [],
+            "category": "Antinuke"
+        },
+        {
+            "name": "antinuke channeldelete",
+            "description": "",
+            "usage": null,
+            "help": "prevent admins from deleting channels",
+            "brief": "antinuke admin",
+            "aliases": [],
+            "category": "Antinuke"
+        },
+        {
+            "name": "antinuke channelcreate",
+            "description": "",
+            "usage": null,
+            "help": "prevent admins from creating channels",
+            "brief": "antinuke admin",
+            "aliases": [],
+            "category": "Antinuke"
+        },
+        {
+            "name": "antinuke giverole",
+            "description": "",
+            "usage": null,
+            "help": "prevent the members giving dangerous permissions to other members",
+            "brief": "antinuke admin",
+            "aliases": [],
+            "category": "Antinuke"
+        },
+        {
+            "name": "antinuke roledelete",
+            "description": "",
+            "usage": null,
+            "help": "protect the server against role deletions",
+            "brief": "antinuke admin",
+            "aliases": [],
+            "category": "Antinuke"
+        },
+        {
+            "name": "antinuke rolecreate",
+            "description": "",
+            "usage": null,
+            "help": "protect the server against role creations",
+            "brief": "antinuke admin",
+            "aliases": [],
+            "category": "Antinuke"
+        },
+        {
+            "name": "antinuke ban",
+            "description": "",
+            "usage": null,
+            "help": "prevent admins from banning members",
+            "brief": "antinuke admin",
+            "aliases": [],
+            "category": "Antinuke"
+        },
+        {
+            "name": "antinuke editrole",
+            "description": "",
+            "usage": null,
+            "help": "prevent admins from giving dangerous permissions to roles",
+            "brief": "antinuke admin",
+            "aliases": [],
+            "category": "Antinuke"
+        },
+        {
+            "name": "antinuke botadd",
+            "description": "",
+            "usage": null,
+            "help": "keep the bots away",
+            "brief": "antinuke admin",
+            "aliases": [],
+            "category": "Antinuke"
+        },
+        {
+            "name": "antinuke whitelist",
+            "description": "",
+            "usage": null,
+            "help": "make an user antinuke whitelisted",
+            "brief": "antinuke admin",
+            "aliases": [
+                "wl"
+            ],
+            "category": "Antinuke"
+        }
+    ],
+    "Ticket": [
+        {
+            "name": "ticket reset",
+            "description": "",
+            "usage": null,
+            "help": "disable the ticket module in the server",
+            "brief": "manage server",
+            "aliases": [
+                "disable"
+            ],
+            "category": "Ticket"
+        },
+        {
+            "name": "ticket category",
+            "description": "",
+            "usage": null,
+            "help": "configure the category where the tickets should open",
+            "brief": "manage server",
+            "aliases": [],
+            "category": "Ticket"
+        },
+        {
+            "name": "ticket close",
+            "description": "",
+            "usage": null,
+            "help": "close the ticket",
+            "brief": "ticket support / manage channels",
+            "aliases": [],
+            "category": "Ticket"
+        },
+        {
+            "name": "ticket logs",
+            "description": "",
+            "usage": null,
+            "help": "configure a channel for logging ticket transcripts",
+            "brief": "manage server",
+            "aliases": [],
+            "category": "Ticket"
+        },
+        {
+            "name": "ticket add",
+            "description": "",
+            "usage": null,
+            "help": "add a person to the ticket",
+            "brief": "ticket support / manage channels",
+            "aliases": [],
+            "category": "Ticket"
+        },
+        {
+            "name": "ticket support",
+            "description": "",
+            "usage": null,
+            "help": "configure the ticket support role",
+            "brief": "manage server",
+            "aliases": [],
+            "category": "Ticket"
+        },
+        {
+            "name": "ticket topics",
+            "description": "",
+            "usage": null,
+            "help": "manage the ticket topics",
+            "brief": "administrator",
+            "aliases": [],
+            "category": "Ticket"
+        },
+        {
+            "name": "ticket send",
+            "description": "",
+            "usage": null,
+            "help": "send the ticket panel to a channel",
+            "brief": "manage server",
+            "aliases": [],
+            "category": "Ticket"
+        },
+        {
+            "name": "ticket remove",
+            "description": "",
+            "usage": null,
+            "help": "remove a member from the ticket",
+            "brief": "ticket support / manage channels",
+            "aliases": [],
+            "category": "Ticket"
+        },
+        {
+            "name": "ticket opened",
+            "description": "",
+            "usage": null,
+            "help": "set a message to be sent when a member opens a ticket",
+            "brief": "manage server",
+            "aliases": [],
+            "category": "Ticket"
+        },
+        {
+            "name": "ticket rename",
+            "description": "",
+            "usage": null,
+            "help": "rename a ticket channel",
+            "brief": "ticket support / manage channels",
+            "aliases": [],
+            "category": "Ticket"
+        },
+        {
+            "name": "ticket config",
+            "description": "",
+            "usage": null,
+            "help": "check the server's ticket settings",
+            "brief": null,
+            "aliases": [
+                "settings"
+            ],
+            "category": "Ticket"
+        }
+    ],
+    "Boosterrole": [
+        {
+            "name": "boosterrole setup",
+            "description": "",
+            "usage": null,
+            "help": "Setup the booster role module",
+            "brief": "manage guild",
+            "aliases": [],
+            "category": "Boosterrole"
+        },
+        {
+            "name": "boosterrole icon",
+            "description": "",
+            "usage": null,
+            "help": "Edit the booster role icon",
+            "brief": "server booster",
+            "aliases": [],
+            "category": "Boosterrole"
+        },
+        {
+            "name": "boosterrole color",
+            "description": "",
+            "usage": null,
+            "help": "Edit the booster role color",
+            "brief": "server booster",
+            "aliases": [],
+            "category": "Boosterrole"
+        },
+        {
+            "name": "boosterrole create",
+            "description": "",
+            "usage": null,
+            "help": "Create a booster role",
+            "brief": "server booster",
+            "aliases": [],
+            "category": "Boosterrole"
+        },
+        {
+            "name": "boosterrole award",
+            "description": "",
+            "usage": null,
+            "help": "Give additional roles to members when they boost the server",
+            "brief": null,
+            "aliases": [],
+            "category": "Boosterrole"
+        },
+        {
+            "name": "boosterrole reset",
+            "description": "",
+            "usage": null,
+            "help": "Disable the booster role module",
+            "brief": "manage guild",
+            "aliases": [],
+            "category": "Boosterrole"
+        },
+        {
+            "name": "boosterrole name",
+            "description": "",
+            "usage": null,
+            "help": "Edit your booster role name",
+            "brief": "server booster",
+            "aliases": [],
+            "category": "Boosterrole"
+        },
+        {
+            "name": "boosterrole list",
+            "description": "",
+            "usage": null,
+            "help": "Returns a list of all booster roles created in this server",
+            "brief": null,
+            "aliases": [],
+            "category": "Boosterrole"
+        },
+        {
+            "name": "boosterrole base",
+            "description": "",
+            "usage": null,
+            "help": "Create the booster roles above the given role",
+            "brief": "manage guild",
+            "aliases": [],
+            "category": "Boosterrole"
+        },
+        {
+            "name": "boosterrole delete",
+            "description": "",
+            "usage": null,
+            "help": "Delete your booster role",
+            "brief": "server booster",
+            "aliases": [],
+            "category": "Boosterrole"
+        }
+    ],
+    "Webhooks": [
+        {
+            "name": "webhook edit",
+            "description": "",
+            "usage": null,
+            "help": "Edit the webhook's look",
+            "brief": "manage webhooks",
+            "aliases": [],
+            "category": "Webhooks"
+        },
+        {
+            "name": "webhook delete",
+            "description": "",
+            "usage": null,
+            "help": "Delete a webhook created by the bot",
+            "brief": "manage webhooks",
+            "aliases": [],
+            "category": "Webhooks"
+        },
+        {
+            "name": "webhook send",
+            "description": "",
+            "usage": null,
+            "help": "Send a webhook using a discohook json file / embed code",
+            "brief": "manage webhooks",
+            "aliases": [],
+            "category": "Webhooks"
+        },
+        {
+            "name": "webhook create",
+            "description": "",
+            "usage": null,
+            "help": "Create a webhook in a channel",
+            "brief": "manage webhooks",
+            "aliases": [],
+            "category": "Webhooks"
+        },
+        {
+            "name": "webhook list",
+            "description": "",
+            "usage": null,
+            "help": "Weturns a list of available server webhooks",
+            "brief": null,
+            "aliases": [],
+            "category": "Webhooks"
+        }
+    ],
+    "Uncategorized": [
+        {
+            "name": "help",
+            "description": "",
+            "usage": null,
+            "help": "Shows this message",
+            "brief": null,
+            "aliases": [],
+            "category": "Uncategorized"
+        }
+    ],
+    "Jishaku": [
+        {
+            "name": "jishaku permtrace",
+            "description": "",
+            "usage": null,
+            "help": "Calculates the source of granted or rejected permissions.\n\nThis accepts a channel, and either a member or a list of roles.\nIt calculates permissions the same way Discord does, while keeping track of the source.",
+            "brief": null,
+            "aliases": [],
+            "category": "Jishaku"
+        },
+        {
+            "name": "jishaku rustc",
+            "description": "",
+            "usage": null,
+            "help": "Shortcut for scaffolding and executing 'cargo run'. Only exists if the executables are detected.",
+            "brief": null,
+            "aliases": [],
+            "category": "Jishaku"
+        },
+        {
+            "name": "jishaku shutdown",
+            "description": "",
+            "usage": null,
+            "help": "Logs this bot out.",
+            "brief": null,
+            "aliases": [
+                "logout"
+            ],
+            "category": "Jishaku"
+        },
+        {
+            "name": "jishaku py",
+            "description": "",
+            "usage": null,
+            "help": "Direct evaluation of Python code.",
+            "brief": null,
+            "aliases": [
+                "python"
+            ],
+            "category": "Jishaku"
+        },
+        {
+            "name": "jishaku source",
+            "description": "",
+            "usage": null,
+            "help": "Displays the source code for a command.",
+            "brief": null,
+            "aliases": [
+                "src"
+            ],
+            "category": "Jishaku"
+        },
+        {
+            "name": "jishaku git",
+            "description": "",
+            "usage": null,
+            "help": "Shortcut for 'jsk sh git'. Invokes the system shell.",
+            "brief": null,
+            "aliases": [],
+            "category": "Jishaku"
+        },
+        {
+            "name": "jishaku invite",
+            "description": "",
+            "usage": null,
+            "help": "Retrieve the invite URL for this bot.\n\nIf the names of permissions are provided, they are requested as part of the invite.",
+            "brief": null,
+            "aliases": [],
+            "category": "Jishaku"
+        },
+        {
+            "name": "jishaku show",
+            "description": "",
+            "usage": null,
+            "help": "Shows Jishaku in the help command.",
+            "brief": null,
+            "aliases": [],
+            "category": "Jishaku"
+        },
+        {
+            "name": "jishaku py_inspect",
+            "description": "",
+            "usage": null,
+            "help": "Evaluation of Python code with inspect information.",
+            "brief": null,
+            "aliases": [
+                "pyi",
+                "python_inspect",
+                "pythoninspect"
+            ],
+            "category": "Jishaku"
+        },
+        {
+            "name": "jishaku cat",
+            "description": "",
+            "usage": null,
+            "help": "Read out a file, using syntax highlighting if detected.\n\nLines and linespans are supported by adding '#L12' or '#L12-14' etc to the end of the filename.",
+            "brief": null,
+            "aliases": [],
+            "category": "Jishaku"
+        },
+        {
+            "name": "jishaku cancel",
+            "description": "",
+            "usage": null,
+            "help": "Cancels a task with the given index.\n\nIf the index passed is -1, will cancel the last task instead.",
+            "brief": null,
+            "aliases": [],
+            "category": "Jishaku"
+        },
+        {
+            "name": "jishaku override",
+            "description": "",
+            "usage": null,
+            "help": "Run a command with a different user, channel, or thread, optionally bypassing checks and cooldowns.\n\nUsers will try to resolve to a Member, but will use a User if it can't find one.",
+            "brief": null,
+            "aliases": [
+                "execute",
+                "exec",
+                "override!",
+                "execute!",
+                "exec!"
+            ],
+            "category": "Jishaku"
+        },
+        {
+            "name": "jishaku voice",
+            "description": "",
+            "usage": null,
+            "help": "Voice-related commands.\n\nIf invoked without subcommand, relays current voice state.",
+            "brief": null,
+            "aliases": [
+                "vc"
+            ],
+            "category": "Jishaku"
+        },
+        {
+            "name": "jishaku pip",
+            "description": "",
+            "usage": null,
+            "help": "Shortcut for 'jsk sh pip'. Invokes the system shell.",
+            "brief": null,
+            "aliases": [],
+            "category": "Jishaku"
+        },
+        {
+            "name": "jishaku hide",
+            "description": "",
+            "usage": null,
+            "help": "Hides Jishaku from the help command.",
+            "brief": null,
+            "aliases": [],
+            "category": "Jishaku"
+        },
+        {
+            "name": "jishaku rtt",
+            "description": "",
+            "usage": null,
+            "help": "Calculates Round-Trip Time to the API.",
+            "brief": null,
+            "aliases": [
+                "ping"
+            ],
+            "category": "Jishaku"
+        },
+        {
+            "name": "jishaku dis",
+            "description": "",
+            "usage": null,
+            "help": "Disassemble Python code into bytecode.",
+            "brief": null,
+            "aliases": [
+                "disassemble"
+            ],
+            "category": "Jishaku"
+        },
+        {
+            "name": "jishaku retain",
+            "description": "",
+            "usage": null,
+            "help": "Turn variable retention for REPL on or off.\n\nProvide no argument for current status.",
+            "brief": null,
+            "aliases": [],
+            "category": "Jishaku"
+        },
+        {
+            "name": "jishaku repeat",
+            "description": "",
+            "usage": null,
+            "help": "Runs a command multiple times in a row.\n\nThis acts like the command was invoked several times manually, so it obeys cooldowns.\nYou can use this in conjunction with `jsk sudo` to bypass this.",
+            "brief": null,
+            "aliases": [],
+            "category": "Jishaku"
+        },
+        {
+            "name": "jishaku load",
+            "description": "",
+            "usage": null,
+            "help": "Loads or reloads the given extension names.\n\nReports any extensions that failed to load.",
+            "brief": null,
+            "aliases": [
+                "reload"
+            ],
+            "category": "Jishaku"
+        },
+        {
+            "name": "jishaku curl",
+            "description": "",
+            "usage": null,
+            "help": "Download and display a text file from the internet.\n\nThis command is similar to jsk cat, but accepts a URL.",
+            "brief": null,
+            "aliases": [],
+            "category": "Jishaku"
+        },
+        {
+            "name": "jishaku sync",
+            "description": "",
+            "usage": null,
+            "help": "Sync global or guild application commands to Discord.",
+            "brief": null,
+            "aliases": [],
+            "category": "Jishaku"
+        },
+        {
+            "name": "jishaku ast",
+            "description": "",
+            "usage": null,
+            "help": "Disassemble Python code into AST.",
+            "brief": null,
+            "aliases": [],
+            "category": "Jishaku"
+        },
+        {
+            "name": "jishaku node",
+            "description": "",
+            "usage": null,
+            "help": "Shortcut for scaffolding and executing 'npm run'. Only exists if the executables are detected.",
+            "brief": null,
+            "aliases": [],
+            "category": "Jishaku"
+        },
+        {
+            "name": "jishaku tasks",
+            "description": "",
+            "usage": null,
+            "help": "Shows the currently running jishaku tasks.",
+            "brief": null,
+            "aliases": [],
+            "category": "Jishaku"
+        },
+        {
+            "name": "jishaku unload",
+            "description": "",
+            "usage": null,
+            "help": "Unloads the given extension names.\n\nReports any extensions that failed to unload.",
+            "brief": null,
+            "aliases": [],
+            "category": "Jishaku"
+        },
+        {
+            "name": "jishaku debug",
+            "description": "",
+            "usage": null,
+            "help": "Run a command timing execution and catching exceptions.",
+            "brief": null,
+            "aliases": [
+                "dbg"
+            ],
+            "category": "Jishaku"
+        },
+        {
+            "name": "jishaku shell",
+            "description": "",
+            "usage": null,
+            "help": "Executes statements in the system shell.\n\nThis uses the system shell as defined in $SHELL, or `/bin/bash` otherwise.\nExecution can be cancelled by closing the paginator.",
+            "brief": null,
+            "aliases": [
+                "bash",
+                "sh",
+                "powershell",
+                "ps1",
+                "ps",
+                "cmd",
+                "terminal"
+            ],
+            "category": "Jishaku"
+        }
+    ]
+}

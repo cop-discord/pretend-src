@@ -1,0 +1,79 @@
+@app.post(
+    "/auth/setup", 
+    tags=['auth']
+)
+async def auth_setup(request: Request, form: OauthSetupForm, token: APIKey = Depends(auth_scheme)) -> JSONResponse:
+    """
+    Set up a Discord Oauth system for your Discord Bot thru our API
+    Make sure all the data provided is correct otherwise it won't work
+    """
+
+    if not token.role in ['master', 'bot_developer']:
+        raise HTTPException(
+            status_code=403,
+            detail="You are not allowed to use this endpoint"
+        )
+    
+    result = await app.state.db.fetchrow('SELECT * FROM api_oauth WHERE bot_id = $1', form.bot_id)
+    if result: 
+        if result.api_token != str(token):
+            raise HTTPException(
+                status_code=403,
+                detail="This bot is not yours"
+            )
+
+    headers = {
+        "Authorization": f"Bot {form.bot_token}"
+    }
+
+    async with aiohttp.ClientSession(headers=headers) as cs: 
+        async with cs.get("https://discord.com/api/v10/users/@me") as r: 
+            if r.ok:
+                data = await r.json()
+                if int(data['id']) == form.bot_id: 
+                    await app.state.db.execute(
+                        """
+                        INSERT INTO api_oauth VALUES ($1,$2,$3,$4,$5,$6)
+                        ON CONFLICT (bot_id) DO UPDATE SET
+                        client_secret = $2, bot_token = $3
+                        """,
+                        form.bot_id, form.client_secret, form.bot_token, 
+                        str(token), f"{request.base_url}callback/{form.bot_id}", json.dumps("{}")
+                    )
+
+                    return {
+                        "detail": f"Discord Oauth can be used by {data['username']}#{data['discriminator']} ({form.bot_id}) via out API. " +
+                        f"Please go to https://discord.com/developers/applications/{form.bot_id}/oauth2 and set the redirect to {request.base_url}callback/{form.bot_id}"
+                    }
+    
+    raise HTTPException(
+        status_code=400,
+        detail="Incorrect data was provided"
+    )
+
+@app.get(
+    "/auth/fetchurl/bot/{bot_id}/guild/{guild_id}", 
+    tags=['auth'],
+    response_model=URLModel,
+    response_class=JSONResponse
+)
+async def auth_fetch_url(request: Request, bot_id: int, guild_id: int, token = Depends(auth_scheme)): 
+    """Fetch the Discord Oauth URL for a certain server"""
+    
+    if not token.role in ['master', 'bot_developer']:
+        raise HTTPException(
+            status_code=403, 
+            detail="You cannot use this endpoint"
+        )
+    
+    result = await app.state.db.fetchrow("SELECT * FROM api_oauth WHERE bot_id = $1", bot_id)
+
+    if not result:
+        raise HTTPException(
+            status_code=404, 
+            detail="Bot not found in our Oauth system"
+        )
+    
+    return {
+        "url": f"https://discord.com/oauth2/authorize?client_id={result.bot_id}&response_type=code&redirect_uri={request.base_url}callback/{bot_id}&scope=identify+guilds&state={guild_id}"
+    }
