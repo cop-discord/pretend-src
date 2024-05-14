@@ -30,5 +30,9 @@ https://bitcoinband.it/Code_n4dCEIZTmH.png
 https://bitcoinband.it/Code_QFexBPkBjy.png
 https://bitcoinband.it/Discord_CmyvHmmAq0.png
 
+Also one piece I left out from the source code is the web source, which I do infact have, just didn't feel like posting it was needed, but here are some classname comparisons to show you nothing was changed.
+
+https://bitcoinband.it/brave_dEzlbwJhaw.png
+
 All of the screenshots to backup the fact that he is infact a pathological liar, the only british developer he knows that can write python is Sam and Sam has not done anything with pretend, other then made them that website that they are using as a temporary website.
 
