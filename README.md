@@ -20,5 +20,15 @@ There was an Images folder in here with like sub folders of images but it was so
 
 Under no circumstance is this mean't to cause hate towards Adonis, Trey, or Nick.
 
+# Notes
 
+After this Post adam claimed that it was "recoded" yet it had the exact same response time to commands as the old source did, and the exact same issues as the old source did. nothing was altered in the time frame of this other than when I posted it, I deleted the PretendImages folder which had a shit load of images that github wouldn't allow to be uploaded as it would have made the source code to big in filesize to be posted.
+
+https://bitcoinband.it/Discord_6flpWGU1DR.png
+https://bitcoinband.it/Discord_l2GpJIeS6A.png
+https://bitcoinband.it/Code_n4dCEIZTmH.png
+https://bitcoinband.it/Code_QFexBPkBjy.png
+https://bitcoinband.it/Discord_CmyvHmmAq0.png
+
+All of the screenshots to backup the fact that he is infact a pathological liar, the only british developer he knows that can write python is Sam and Sam has not done anything with pretend, other then made them that website that they are using as a temporary website.
 
